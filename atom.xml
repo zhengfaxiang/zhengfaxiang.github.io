@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Fx Blog</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://github.com/zhengfaxiang/zhengfaxiang.github.io/"/>
+  <updated>2016-05-01T18:54:09.233Z</updated>
+  <id>https://github.com/zhengfaxiang/zhengfaxiang.github.io/</id>
+  
+  <author>
+    <name>Faxiang Zheng</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://github.com/zhengfaxiang/zhengfaxiang.github.io/2016/05/02/hello-world/"/>
+    <id>https://github.com/zhengfaxiang/zhengfaxiang.github.io/2016/05/02/hello-world/</id>
+    <published>2016-05-01T19:38:13.792Z</published>
+    <updated>2016-05-01T18:54:09.233Z</updated>
+    
+    <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Run-server&quot;&gt;&lt;a href=&quot;#Run-server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/server.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Generate-static-files&quot;&gt;&lt;a href=&quot;#Generate-static-files&quot; class=&quot;headerlink&quot; title=&quot;Generate static files&quot;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/generating.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Generating&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Deploy-to-remote-sites&quot;&gt;&lt;a href=&quot;#Deploy-to-remote-sites&quot; class=&quot;headerlink&quot; title=&quot;Deploy to remote sites&quot;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/deployment.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello,orgmode</title>
+    <link href="https://github.com/zhengfaxiang/zhengfaxiang.github.io/2016/05/02/test-org/"/>
+    <id>https://github.com/zhengfaxiang/zhengfaxiang.github.io/2016/05/02/test-org/</id>
+    <published>2016-05-01T16:00:00.000Z</published>
+    <updated>2016-05-01T22:00:42.745Z</updated>
+    
+    <content type="html">
+
+&lt;div id=&quot;outline-container-sec-1&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-1&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Org-mode&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
+&lt;/div&gt;&lt;div id=&quot;outline-container-sec-1-1&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-1-1&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;1.1&lt;/span&gt; Why org mode&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-1-1&quot;&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;console&lt;/span&gt;.log(&lt;span class=&quot;string&quot;&gt;&amp;apos;hello&amp;apos;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-1-2&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-1-2&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;1.2&lt;/span&gt; Python test&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-1-2&quot;&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; click&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;class&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;Config&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(object)&lt;/span&gt;:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(self)&lt;/span&gt;:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	self.verbose = &lt;span class=&quot;keyword&quot;&gt;False&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-1-3&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-1-3&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;1.3&lt;/span&gt; LaTeX test&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-1-3&quot;&gt;
+&lt;p&gt;
+$$\sum{}_{i=0}^{n}\frac{1}{n^2}$$
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+Last Updated 2016-05-02 Mon 06:00.&lt;br&gt;Rendered by &lt;a href=&quot;https://github.com/CodeFalling/hexo-renderer-org&quot;&gt;hexo-renderer-org&lt;/a&gt; with &lt;a href=&quot;http://www.gnu.org/software/emacs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Emacs&lt;/a&gt; 24.5.1 (&lt;a href=&quot;http://orgmode.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Org&lt;/a&gt; mode 8.2.10)
+</content>
+    
+    <summary type="html">
+    
+      
+
+&lt;div id=&quot;outline-container-sec-1&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-1&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Org-mode&lt;/h2&gt;
+&lt;div class=&quot;outl
+    
+    </summary>
+    
+      <category term="orgmode" scheme="https://github.com/zhengfaxiang/zhengfaxiang.github.io/categories/orgmode/"/>
+    
+    
+      <category term="emacs" scheme="https://github.com/zhengfaxiang/zhengfaxiang.github.io/tags/emacs/"/>
+    
+      <category term="orgmode" scheme="https://github.com/zhengfaxiang/zhengfaxiang.github.io/tags/orgmode/"/>
+    
+      <category term="hexo" scheme="https://github.com/zhengfaxiang/zhengfaxiang.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Install Softwares for High-energy Astronomy</title>
+    <link href="https://github.com/zhengfaxiang/zhengfaxiang.github.io/2015/10/18/high-energy-soft-install/"/>
+    <id>https://github.com/zhengfaxiang/zhengfaxiang.github.io/2015/10/18/high-energy-soft-install/</id>
+    <published>2015-10-17T16:00:00.000Z</published>
+    <updated>2016-05-01T19:24:27.793Z</updated>
+    
+    <content type="html">&lt;h1 id=&quot;DS9&quot;&gt;&lt;a href=&quot;#DS9&quot; class=&quot;headerlink&quot; title=&quot;DS9&quot;&gt;&lt;/a&gt;DS9&lt;/h1&gt;&lt;h2 id=&quot;Install&quot;&gt;&lt;a href=&quot;#Install&quot; class=&quot;headerlink&quot; title=&quot;Install&quot;&gt;&lt;/a&gt;Install&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;yaourt -S ds9-bin
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;Check-Installation&quot;&gt;&lt;a href=&quot;#Check-Installation&quot; class=&quot;headerlink&quot; title=&quot;Check Installation&quot;&gt;&lt;/a&gt;Check Installation&lt;/h2&gt;&lt;p&gt;Run DS9 by typing &lt;code&gt;ds9&lt;/code&gt; in your unix prompt&lt;/p&gt;
+&lt;h1 id=&quot;HEASOFT&quot;&gt;&lt;a href=&quot;#HEASOFT&quot; class=&quot;headerlink&quot; title=&quot;HEASOFT&quot;&gt;&lt;/a&gt;HEASOFT&lt;/h1&gt;&lt;h2 id=&quot;Download-source-code&quot;&gt;&lt;a href=&quot;#Download-source-code&quot; class=&quot;headerlink&quot; title=&quot;Download source code&quot;&gt;&lt;/a&gt;Download source code&lt;/h2&gt;&lt;p&gt;Visit &lt;a href=&quot;http://heasarc.gsfc.nasa.gov/docs/software/lheasoft/download.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://heasarc.gsfc.nasa.gov/docs/software/lheasoft/download.html&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Unpack-the-file-to-the-installation-directory&quot;&gt;&lt;a href=&quot;#Unpack-the-file-to-the-installation-directory&quot; class=&quot;headerlink&quot; title=&quot;Unpack the file to the installation directory&quot;&gt;&lt;/a&gt;Unpack the file to the installation directory&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;cd /usr/local/
+sudo tar zxvf /path/to/the/downloaded/file/heasoft-6.17src.tar.gz
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;Install-1&quot;&gt;&lt;a href=&quot;#Install-1&quot; class=&quot;headerlink&quot; title=&quot;Install&quot;&gt;&lt;/a&gt;Install&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;cd heasoft-6.17/BUILD_DIR
+sudo ./configure
+sudo make
+sudo make install
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;this may take some time, so be patient : -) or you can have a coffee ~&lt;/p&gt;
+&lt;h2 id=&quot;Add-the-environment-variables&quot;&gt;&lt;a href=&quot;#Add-the-environment-variables&quot; class=&quot;headerlink&quot; title=&quot;Add the environment variables&quot;&gt;&lt;/a&gt;Add the environment variables&lt;/h2&gt;&lt;p&gt;Add following code to your ~/.bashrc or ~/.zshrc&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;export HEADAS=/usr/local/heasoft-6.17/(PLATFORM)
+alias heainit=&amp;quot;. $HEADAS/headas-init.sh&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;where (PLATFORM) is a placeholder for the platform-specific string&lt;br&gt;denoting your machine’s architecture, for example: x86_64-unknown-linux-gnu-libc2. 22&lt;br&gt;in my Archlinux&lt;/p&gt;
+&lt;h2 id=&quot;Check-installation&quot;&gt;&lt;a href=&quot;#Check-installation&quot; class=&quot;headerlink&quot; title=&quot;Check installation&quot;&gt;&lt;/a&gt;Check installation&lt;/h2&gt;&lt;p&gt;Run &lt;code&gt;heainit&lt;/code&gt; in your unix prompt&lt;/p&gt;
+&lt;h1 id=&quot;XMM-SAS&quot;&gt;&lt;a href=&quot;#XMM-SAS&quot; class=&quot;headerlink&quot; title=&quot;XMM SAS&quot;&gt;&lt;/a&gt;XMM SAS&lt;/h1&gt;&lt;h2 id=&quot;Download&quot;&gt;&lt;a href=&quot;#Download&quot; class=&quot;headerlink&quot; title=&quot;Download&quot;&gt;&lt;/a&gt;Download&lt;/h2&gt;&lt;p&gt; Download from &lt;a href=&quot;http://xmm.esac.esa.int/sas/current/downloadandinstall.shtml&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://xmm.esac.esa.int/sas/current/downloadandinstall.shtml&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Unpack-it-to-the-installation-directory&quot;&gt;&lt;a href=&quot;#Unpack-it-to-the-installation-directory&quot; class=&quot;headerlink&quot; title=&quot;Unpack it to the installation directory&quot;&gt;&lt;/a&gt;Unpack it to the installation directory&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;sudo mkdir /usr/local/SAS
+cd /usr/local/SAS
+sudo tar zxf /path/to/the/downloaded/file/sas_14.0.0-&amp;lt;OS&amp;gt;.tgz
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;Run-the-installation-file&quot;&gt;&lt;a href=&quot;#Run-the-installation-file&quot; class=&quot;headerlink&quot; title=&quot;Run the installation file&quot;&gt;&lt;/a&gt;Run the installation file&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;sudo ./install.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;Environment-settings&quot;&gt;&lt;a href=&quot;#Environment-settings&quot; class=&quot;headerlink&quot; title=&quot;Environment settings&quot;&gt;&lt;/a&gt;Environment settings&lt;/h2&gt;&lt;p&gt;Add following code to your ~/.bashrc or ~/.zshrc&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;alias sasinit=&amp;quot;. /usr/local/SAS/xmmsas_20141104_1833/setsas.sh&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;Check-installation-1&quot;&gt;&lt;a href=&quot;#Check-installation-1&quot; class=&quot;headerlink&quot; title=&quot;Check installation&quot;&gt;&lt;/a&gt;Check installation&lt;/h2&gt;&lt;p&gt;Run &lt;code&gt;sasinit&lt;/code&gt; in your unix prompt&lt;/p&gt;
+&lt;h1 id=&quot;CALDB&quot;&gt;&lt;a href=&quot;#CALDB&quot; class=&quot;headerlink&quot; title=&quot;CALDB&quot;&gt;&lt;/a&gt;CALDB&lt;/h1&gt;&lt;h2 id=&quot;Download-1&quot;&gt;&lt;a href=&quot;#Download-1&quot; class=&quot;headerlink&quot; title=&quot;Download&quot;&gt;&lt;/a&gt;Download&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Chandra&lt;/p&gt;
+&lt;p&gt;  Visit &lt;a href=&quot;http://cxc.harvard.edu/ciao/download/caldb.html#caldb&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://cxc.harvard.edu/ciao/download/caldb.html#caldb&lt;/a&gt; to download Chandra caldb&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Others&lt;/p&gt;
+&lt;p&gt;  Visit &lt;a href=&quot;http://heasarc.gsfc.nasa.gov/docs/heasarc/caldb/caldb_supported_missions.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://heasarc.gsfc.nasa.gov/docs/heasarc/caldb/caldb_supported_missions.html&lt;/a&gt; to download&lt;br&gt;  caldb of missions needed such as Suzaku&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Unpack-to-the-installation-directory&quot;&gt;&lt;a href=&quot;#Unpack-to-the-installation-directory&quot; class=&quot;headerlink&quot; title=&quot;Unpack to the installation directory&quot;&gt;&lt;/a&gt;Unpack to the installation directory&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;mkdir ~/caldb
+cd ~/caldb
+tar zxvf /path/to/the/downloaded/file/caldb_4.6.9_main.tar.gz
+tar zxvf /path/to/the/downloaded/file/goodfiles_suzaku_xis_bcf_20151005.tar.gz
+tar zxvf /path/to/the/downloaded/file/goodfiles_suzaku_xis_cpf_20151005.tar.gz
+tar zxvf /path/to/the/downloaded/file/goodfiles_suzaku_xis_index_20151005.tar.gz
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;Environment-settings-1&quot;&gt;&lt;a href=&quot;#Environment-settings-1&quot; class=&quot;headerlink&quot; title=&quot;Environment settings&quot;&gt;&lt;/a&gt;Environment settings&lt;/h2&gt;&lt;p&gt;Add following code to your ~/.bashrc or ~/.zshrc&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;export CALDB=$HOME/caldb
+export CALDBCONFIG=$CALDB/software/tools/caldb.config
+export CALDBALIAS=$CALDB/software/tools/alias_config.fits
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&quot;CIAO&quot;&gt;&lt;a href=&quot;#CIAO&quot; class=&quot;headerlink&quot; title=&quot;CIAO&quot;&gt;&lt;/a&gt;CIAO&lt;/h1&gt;&lt;h2 id=&quot;Before-installation&quot;&gt;&lt;a href=&quot;#Before-installation&quot; class=&quot;headerlink&quot; title=&quot;Before installation&quot;&gt;&lt;/a&gt;Before installation&lt;/h2&gt;&lt;p&gt;link installed CALDB to your CIAO installation directory&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ln -s ~/caldb ~/ciao-4.7/CALDB
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;Download-ciao-install-and-run-it&quot;&gt;&lt;a href=&quot;#Download-ciao-install-and-run-it&quot; class=&quot;headerlink&quot; title=&quot;Download ciao-install and run it&quot;&gt;&lt;/a&gt;Download ciao-install and run it&lt;/h2&gt;&lt;p&gt;Download from &lt;a href=&quot;http://cxc.harvard.edu/ciao/download/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://cxc.harvard.edu/ciao/download/&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;./ciao-install
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;just install ciao to your home directory : -)&lt;/p&gt;
+&lt;h2 id=&quot;Install-dependences&quot;&gt;&lt;a href=&quot;#Install-dependences&quot; class=&quot;headerlink&quot; title=&quot;Install dependences&quot;&gt;&lt;/a&gt;Install dependences&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;yaourt -S libselinux
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;and more…&lt;/p&gt;
+&lt;h2 id=&quot;Fix-a-bug&quot;&gt;&lt;a href=&quot;#Fix-a-bug&quot; class=&quot;headerlink&quot; title=&quot;Fix a bug&quot;&gt;&lt;/a&gt;Fix a bug&lt;/h2&gt;&lt;p&gt;I got something like:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sh: symbol lookup error: sh: undefined symbol: rl_signal_event_hook
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;during installation, duckduckgoaround, I figured out following solution:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;cd ~/ciao-4.7/ots/lib/
+mv libreadline.so.6 libreadline.so.6.bak
+mv libreadline.so libreadline.so.bak
+ln -s /usr/lib/libreadline.so.6.3 ~/ciao-4.7/ots/lib/libreadline.so.6
+ln -s /usr/lib/libreadline.so.6 ~/ciao-4.7/ots/lib/libreadline.so
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;Environment-setting&quot;&gt;&lt;a href=&quot;#Environment-setting&quot; class=&quot;headerlink&quot; title=&quot;Environment setting&quot;&gt;&lt;/a&gt;Environment setting&lt;/h2&gt;&lt;p&gt;Add following code to your ~/.bashrc or ~/.zshrc&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;alias ciao=&amp;quot;source ~/ciao-4.7/bin/ciao.bash&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;Check-installation-2&quot;&gt;&lt;a href=&quot;#Check-installation-2&quot; class=&quot;headerlink&quot; title=&quot;Check installation&quot;&gt;&lt;/a&gt;Check installation&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;ciao
+check_ciao_caldb
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&quot;ISIS&quot;&gt;&lt;a href=&quot;#ISIS&quot; class=&quot;headerlink&quot; title=&quot;ISIS&quot;&gt;&lt;/a&gt;ISIS&lt;/h1&gt;&lt;h2 id=&quot;Ensure-that-slang-has-been-installed-into-a-standard-location&quot;&gt;&lt;a href=&quot;#Ensure-that-slang-has-been-installed-into-a-standard-location&quot; class=&quot;headerlink&quot; title=&quot;Ensure that slang has been installed into a standard location&quot;&gt;&lt;/a&gt;Ensure that slang has been installed into a standard location&lt;/h2&gt;&lt;h2 id=&quot;Download-source-file-using-git&quot;&gt;&lt;a href=&quot;#Download-source-file-using-git&quot; class=&quot;headerlink&quot; title=&quot;Download source file using git&quot;&gt;&lt;/a&gt;Download source file using git&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;git clone http://space.mit.edu/cxc/isis/isis.git ~/Downloads/isis-src
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;Build-and-install&quot;&gt;&lt;a href=&quot;#Build-and-install&quot; class=&quot;headerlink&quot; title=&quot;Build and install&quot;&gt;&lt;/a&gt;Build and install&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;cd ~/Downloads/isis-src
+./configure --with-headas=$HEADAS
+make
+make check
+sudo make install
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;Check-installation-3&quot;&gt;&lt;a href=&quot;#Check-installation-3&quot; class=&quot;headerlink&quot; title=&quot;Check installation&quot;&gt;&lt;/a&gt;Check installation&lt;/h2&gt;&lt;p&gt;After isis is installed, you should be able to run it by&lt;br&gt;typing &lt;code&gt;isis&lt;/code&gt; at the unix prompt&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;DS9&quot;&gt;&lt;a href=&quot;#DS9&quot; class=&quot;headerlink&quot; title=&quot;DS9&quot;&gt;&lt;/a&gt;DS9&lt;/h1&gt;&lt;h2 id=&quot;Install&quot;&gt;&lt;a href=&quot;#Install&quot; class=&quot;headerlink&quot; title=&quot;Install
+    
+    </summary>
+    
+      <category term="Astronomy" scheme="https://github.com/zhengfaxiang/zhengfaxiang.github.io/categories/Astronomy/"/>
+    
+    
+      <category term="astronomy" scheme="https://github.com/zhengfaxiang/zhengfaxiang.github.io/tags/astronomy/"/>
+    
+      <category term="linux" scheme="https://github.com/zhengfaxiang/zhengfaxiang.github.io/tags/linux/"/>
+    
+      <category term="software" scheme="https://github.com/zhengfaxiang/zhengfaxiang.github.io/tags/software/"/>
+    
+  </entry>
+  
+</feed>
