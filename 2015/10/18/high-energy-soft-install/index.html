@@ -1,0 +1,677 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css"/>
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="astronomy,linux,software," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
+
+
+
+
+
+
+<meta name="description" content="DS9Installyaourt -S ds9-bin
+Check InstallationRun DS9 by typing ds9 in your unix prompt
+HEASOFTDownload source codeVisit http://heasarc.gsfc.nasa.gov/docs/software/lheasoft/download.html
+Unpack the fi">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Install Softwares for High-energy Astronomy">
+<meta property="og:url" content="https://github.com/zhengfaxiang/zhengfaxiang.github.io/2015/10/18/high-energy-soft-install/index.html">
+<meta property="og:site_name" content="Fx Blog">
+<meta property="og:description" content="DS9Installyaourt -S ds9-bin
+Check InstallationRun DS9 by typing ds9 in your unix prompt
+HEASOFTDownload source codeVisit http://heasarc.gsfc.nasa.gov/docs/software/lheasoft/download.html
+Unpack the fi">
+<meta property="og:updated_time" content="2016-05-01T19:24:27.793Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Install Softwares for High-energy Astronomy">
+<meta name="twitter:description" content="DS9Installyaourt -S ds9-bin
+Check InstallationRun DS9 by typing ds9 in your unix prompt
+HEASOFTDownload source codeVisit http://heasarc.gsfc.nasa.gov/docs/software/lheasoft/download.html
+Unpack the fi">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 0,
+      author: 'Author'
+    }
+  };
+</script>
+
+  <title> Install Softwares for High-energy Astronomy | Fx Blog </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">Fx Blog</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle"></p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-home fa-fw"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-th fa-fw"></i> <br />
+            
+            Categories
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-archive fa-fw"></i> <br />
+            
+            Archives
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-tags fa-fw"></i> <br />
+            
+            Tags
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                Install Softwares for High-energy Astronomy
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Posted on</span>
+            <time itemprop="dateCreated" datetime="2015-10-18T00:00:00+08:00" content="2015-10-18">
+              2015-10-18
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Astronomy/" itemprop="url" rel="index">
+                    <span itemprop="name">Astronomy</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="DS9"><a href="#DS9" class="headerlink" title="DS9"></a>DS9</h1><h2 id="Install"><a href="#Install" class="headerlink" title="Install"></a>Install</h2><pre><code>yaourt -S ds9-bin
+</code></pre><h2 id="Check-Installation"><a href="#Check-Installation" class="headerlink" title="Check Installation"></a>Check Installation</h2><p>Run DS9 by typing <code>ds9</code> in your unix prompt</p>
+<h1 id="HEASOFT"><a href="#HEASOFT" class="headerlink" title="HEASOFT"></a>HEASOFT</h1><h2 id="Download-source-code"><a href="#Download-source-code" class="headerlink" title="Download source code"></a>Download source code</h2><p>Visit <a href="http://heasarc.gsfc.nasa.gov/docs/software/lheasoft/download.html" target="_blank" rel="external">http://heasarc.gsfc.nasa.gov/docs/software/lheasoft/download.html</a></p>
+<h2 id="Unpack-the-file-to-the-installation-directory"><a href="#Unpack-the-file-to-the-installation-directory" class="headerlink" title="Unpack the file to the installation directory"></a>Unpack the file to the installation directory</h2><pre><code>cd /usr/local/
+sudo tar zxvf /path/to/the/downloaded/file/heasoft-6.17src.tar.gz
+</code></pre><h2 id="Install-1"><a href="#Install-1" class="headerlink" title="Install"></a>Install</h2><pre><code>cd heasoft-6.17/BUILD_DIR
+sudo ./configure
+sudo make
+sudo make install
+</code></pre><p>this may take some time, so be patient : -) or you can have a coffee ~</p>
+<h2 id="Add-the-environment-variables"><a href="#Add-the-environment-variables" class="headerlink" title="Add the environment variables"></a>Add the environment variables</h2><p>Add following code to your ~/.bashrc or ~/.zshrc</p>
+<pre><code>export HEADAS=/usr/local/heasoft-6.17/(PLATFORM)
+alias heainit=&quot;. $HEADAS/headas-init.sh&quot;
+</code></pre><p>where (PLATFORM) is a placeholder for the platform-specific string<br>denoting your machine’s architecture, for example: x86_64-unknown-linux-gnu-libc2. 22<br>in my Archlinux</p>
+<h2 id="Check-installation"><a href="#Check-installation" class="headerlink" title="Check installation"></a>Check installation</h2><p>Run <code>heainit</code> in your unix prompt</p>
+<h1 id="XMM-SAS"><a href="#XMM-SAS" class="headerlink" title="XMM SAS"></a>XMM SAS</h1><h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p> Download from <a href="http://xmm.esac.esa.int/sas/current/downloadandinstall.shtml" target="_blank" rel="external">http://xmm.esac.esa.int/sas/current/downloadandinstall.shtml</a></p>
+<h2 id="Unpack-it-to-the-installation-directory"><a href="#Unpack-it-to-the-installation-directory" class="headerlink" title="Unpack it to the installation directory"></a>Unpack it to the installation directory</h2><pre><code>sudo mkdir /usr/local/SAS
+cd /usr/local/SAS
+sudo tar zxf /path/to/the/downloaded/file/sas_14.0.0-&lt;OS&gt;.tgz
+</code></pre><h2 id="Run-the-installation-file"><a href="#Run-the-installation-file" class="headerlink" title="Run the installation file"></a>Run the installation file</h2><pre><code>sudo ./install.sh
+</code></pre><h2 id="Environment-settings"><a href="#Environment-settings" class="headerlink" title="Environment settings"></a>Environment settings</h2><p>Add following code to your ~/.bashrc or ~/.zshrc</p>
+<pre><code>alias sasinit=&quot;. /usr/local/SAS/xmmsas_20141104_1833/setsas.sh&quot;
+</code></pre><h2 id="Check-installation-1"><a href="#Check-installation-1" class="headerlink" title="Check installation"></a>Check installation</h2><p>Run <code>sasinit</code> in your unix prompt</p>
+<h1 id="CALDB"><a href="#CALDB" class="headerlink" title="CALDB"></a>CALDB</h1><h2 id="Download-1"><a href="#Download-1" class="headerlink" title="Download"></a>Download</h2><ul>
+<li><p>Chandra</p>
+<p>  Visit <a href="http://cxc.harvard.edu/ciao/download/caldb.html#caldb" target="_blank" rel="external">http://cxc.harvard.edu/ciao/download/caldb.html#caldb</a> to download Chandra caldb</p>
+</li>
+<li><p>Others</p>
+<p>  Visit <a href="http://heasarc.gsfc.nasa.gov/docs/heasarc/caldb/caldb_supported_missions.html" target="_blank" rel="external">http://heasarc.gsfc.nasa.gov/docs/heasarc/caldb/caldb_supported_missions.html</a> to download<br>  caldb of missions needed such as Suzaku</p>
+</li>
+</ul>
+<h2 id="Unpack-to-the-installation-directory"><a href="#Unpack-to-the-installation-directory" class="headerlink" title="Unpack to the installation directory"></a>Unpack to the installation directory</h2><pre><code>mkdir ~/caldb
+cd ~/caldb
+tar zxvf /path/to/the/downloaded/file/caldb_4.6.9_main.tar.gz
+tar zxvf /path/to/the/downloaded/file/goodfiles_suzaku_xis_bcf_20151005.tar.gz
+tar zxvf /path/to/the/downloaded/file/goodfiles_suzaku_xis_cpf_20151005.tar.gz
+tar zxvf /path/to/the/downloaded/file/goodfiles_suzaku_xis_index_20151005.tar.gz
+</code></pre><h2 id="Environment-settings-1"><a href="#Environment-settings-1" class="headerlink" title="Environment settings"></a>Environment settings</h2><p>Add following code to your ~/.bashrc or ~/.zshrc</p>
+<pre><code>export CALDB=$HOME/caldb
+export CALDBCONFIG=$CALDB/software/tools/caldb.config
+export CALDBALIAS=$CALDB/software/tools/alias_config.fits
+</code></pre><h1 id="CIAO"><a href="#CIAO" class="headerlink" title="CIAO"></a>CIAO</h1><h2 id="Before-installation"><a href="#Before-installation" class="headerlink" title="Before installation"></a>Before installation</h2><p>link installed CALDB to your CIAO installation directory</p>
+<pre><code>ln -s ~/caldb ~/ciao-4.7/CALDB
+</code></pre><h2 id="Download-ciao-install-and-run-it"><a href="#Download-ciao-install-and-run-it" class="headerlink" title="Download ciao-install and run it"></a>Download ciao-install and run it</h2><p>Download from <a href="http://cxc.harvard.edu/ciao/download/" target="_blank" rel="external">http://cxc.harvard.edu/ciao/download/</a></p>
+<pre><code>./ciao-install
+</code></pre><p>just install ciao to your home directory : -)</p>
+<h2 id="Install-dependences"><a href="#Install-dependences" class="headerlink" title="Install dependences"></a>Install dependences</h2><pre><code>yaourt -S libselinux
+</code></pre><p>and more…</p>
+<h2 id="Fix-a-bug"><a href="#Fix-a-bug" class="headerlink" title="Fix a bug"></a>Fix a bug</h2><p>I got something like:</p>
+<pre><code>sh: symbol lookup error: sh: undefined symbol: rl_signal_event_hook
+</code></pre><p>during installation, duckduckgoaround, I figured out following solution:</p>
+<pre><code>cd ~/ciao-4.7/ots/lib/
+mv libreadline.so.6 libreadline.so.6.bak
+mv libreadline.so libreadline.so.bak
+ln -s /usr/lib/libreadline.so.6.3 ~/ciao-4.7/ots/lib/libreadline.so.6
+ln -s /usr/lib/libreadline.so.6 ~/ciao-4.7/ots/lib/libreadline.so
+</code></pre><h2 id="Environment-setting"><a href="#Environment-setting" class="headerlink" title="Environment setting"></a>Environment setting</h2><p>Add following code to your ~/.bashrc or ~/.zshrc</p>
+<pre><code>alias ciao=&quot;source ~/ciao-4.7/bin/ciao.bash&quot;
+</code></pre><h2 id="Check-installation-2"><a href="#Check-installation-2" class="headerlink" title="Check installation"></a>Check installation</h2><pre><code>ciao
+check_ciao_caldb
+</code></pre><h1 id="ISIS"><a href="#ISIS" class="headerlink" title="ISIS"></a>ISIS</h1><h2 id="Ensure-that-slang-has-been-installed-into-a-standard-location"><a href="#Ensure-that-slang-has-been-installed-into-a-standard-location" class="headerlink" title="Ensure that slang has been installed into a standard location"></a>Ensure that slang has been installed into a standard location</h2><h2 id="Download-source-file-using-git"><a href="#Download-source-file-using-git" class="headerlink" title="Download source file using git"></a>Download source file using git</h2><pre><code>git clone http://space.mit.edu/cxc/isis/isis.git ~/Downloads/isis-src
+</code></pre><h2 id="Build-and-install"><a href="#Build-and-install" class="headerlink" title="Build and install"></a>Build and install</h2><pre><code>cd ~/Downloads/isis-src
+./configure --with-headas=$HEADAS
+make
+make check
+sudo make install
+</code></pre><h2 id="Check-installation-3"><a href="#Check-installation-3" class="headerlink" title="Check installation"></a>Check installation</h2><p>After isis is installed, you should be able to run it by<br>typing <code>isis</code> at the unix prompt</p>
+
+      
+    </div>
+    
+    <div>
+      
+        
+      
+    </div>
+
+    <div>
+      
+        
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/astronomy/" rel="tag">#astronomy</a>
+          
+            <a href="/tags/linux/" rel="tag">#linux</a>
+          
+            <a href="/tags/software/" rel="tag">#software</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/05/02/test-org/" rel="prev" title="Hello,orgmode">
+                Hello,orgmode <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/default_avatar.jpg"
+               alt="Faxiang Zheng" />
+          <p class="site-author-name" itemprop="name">Faxiang Zheng</p>
+          <p class="site-description motion-element" itemprop="description">Sharing ideas ...</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">3</span>
+              <span class="site-state-item-name">posts</span>
+            </a>
+          </div>
+
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">categories</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">6</span>
+                <span class="site-state-item-name">tags</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#DS9"><span class="nav-number">1.</span> <span class="nav-text">DS9</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Install"><span class="nav-number">1.1.</span> <span class="nav-text">Install</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Check-Installation"><span class="nav-number">1.2.</span> <span class="nav-text">Check Installation</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#HEASOFT"><span class="nav-number">2.</span> <span class="nav-text">HEASOFT</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Download-source-code"><span class="nav-number">2.1.</span> <span class="nav-text">Download source code</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Unpack-the-file-to-the-installation-directory"><span class="nav-number">2.2.</span> <span class="nav-text">Unpack the file to the installation directory</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Install-1"><span class="nav-number">2.3.</span> <span class="nav-text">Install</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Add-the-environment-variables"><span class="nav-number">2.4.</span> <span class="nav-text">Add the environment variables</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Check-installation"><span class="nav-number">2.5.</span> <span class="nav-text">Check installation</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#XMM-SAS"><span class="nav-number">3.</span> <span class="nav-text">XMM SAS</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Download"><span class="nav-number">3.1.</span> <span class="nav-text">Download</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Unpack-it-to-the-installation-directory"><span class="nav-number">3.2.</span> <span class="nav-text">Unpack it to the installation directory</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Run-the-installation-file"><span class="nav-number">3.3.</span> <span class="nav-text">Run the installation file</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Environment-settings"><span class="nav-number">3.4.</span> <span class="nav-text">Environment settings</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Check-installation-1"><span class="nav-number">3.5.</span> <span class="nav-text">Check installation</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#CALDB"><span class="nav-number">4.</span> <span class="nav-text">CALDB</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Download-1"><span class="nav-number">4.1.</span> <span class="nav-text">Download</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Unpack-to-the-installation-directory"><span class="nav-number">4.2.</span> <span class="nav-text">Unpack to the installation directory</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Environment-settings-1"><span class="nav-number">4.3.</span> <span class="nav-text">Environment settings</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#CIAO"><span class="nav-number">5.</span> <span class="nav-text">CIAO</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Before-installation"><span class="nav-number">5.1.</span> <span class="nav-text">Before installation</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Download-ciao-install-and-run-it"><span class="nav-number">5.2.</span> <span class="nav-text">Download ciao-install and run it</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Install-dependences"><span class="nav-number">5.3.</span> <span class="nav-text">Install dependences</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Fix-a-bug"><span class="nav-number">5.4.</span> <span class="nav-text">Fix a bug</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Environment-setting"><span class="nav-number">5.5.</span> <span class="nav-text">Environment setting</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Check-installation-2"><span class="nav-number">5.6.</span> <span class="nav-text">Check installation</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#ISIS"><span class="nav-number">6.</span> <span class="nav-text">ISIS</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Ensure-that-slang-has-been-installed-into-a-standard-location"><span class="nav-number">6.1.</span> <span class="nav-text">Ensure that slang has been installed into a standard location</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Download-source-file-using-git"><span class="nav-number">6.2.</span> <span class="nav-text">Download source file using git</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Build-and-install"><span class="nav-number">6.3.</span> <span class="nav-text">Build and install</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Check-installation-3"><span class="nav-number">6.4.</span> <span class="nav-text">Check installation</span></a></li></ol></li></ol></div>
+            
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Faxiang Zheng</span>
+</div>
+
+<div class="powered-by">
+  Powered by <a class="theme-link" href="http://hexo.io">Hexo</a>
+</div>
+
+<div class="theme-info">
+  Theme -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+  
+  
+  
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+  </script>
+
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+      var all = MathJax.Hub.getAllJax(), i;
+      for (i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+      }
+    });
+  </script>
+  <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+  
+
+  
+
+</body>
+</html>
