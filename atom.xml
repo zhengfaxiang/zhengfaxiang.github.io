@@ -4,9 +4,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://github.com/zhengfaxiang/zhengfaxiang.github.io/"/>
+  <link href="https://blog.fxzheng.com/"/>
   <updated>2016-05-01T18:54:09.233Z</updated>
-  <id>https://github.com/zhengfaxiang/zhengfaxiang.github.io/</id>
+  <id>https://blog.fxzheng.com/</id>
   
   <author>
     <name>Faxiang Zheng</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://github.com/zhengfaxiang/zhengfaxiang.github.io/2016/05/02/hello-world/"/>
-    <id>https://github.com/zhengfaxiang/zhengfaxiang.github.io/2016/05/02/hello-world/</id>
+    <link href="https://blog.fxzheng.com/2016/05/02/hello-world/"/>
+    <id>https://blog.fxzheng.com/2016/05/02/hello-world/</id>
     <published>2016-05-01T19:38:13.792Z</published>
     <updated>2016-05-01T18:54:09.233Z</updated>
     
@@ -44,8 +44,8 @@
   
   <entry>
     <title>Hello,orgmode</title>
-    <link href="https://github.com/zhengfaxiang/zhengfaxiang.github.io/2016/05/02/test-org/"/>
-    <id>https://github.com/zhengfaxiang/zhengfaxiang.github.io/2016/05/02/test-org/</id>
+    <link href="https://blog.fxzheng.com/2016/05/02/test-org/"/>
+    <id>https://blog.fxzheng.com/2016/05/02/test-org/</id>
     <published>2016-05-01T16:00:00.000Z</published>
     <updated>2016-05-01T22:00:42.745Z</updated>
     
@@ -95,21 +95,21 @@ Last Updated 2016-05-02 Mon 06:00.&lt;br&gt;Rendered by &lt;a href=&quot;https:/
     
     </summary>
     
-      <category term="orgmode" scheme="https://github.com/zhengfaxiang/zhengfaxiang.github.io/categories/orgmode/"/>
+      <category term="orgmode" scheme="https://blog.fxzheng.com/categories/orgmode/"/>
     
     
-      <category term="emacs" scheme="https://github.com/zhengfaxiang/zhengfaxiang.github.io/tags/emacs/"/>
+      <category term="emacs" scheme="https://blog.fxzheng.com/tags/emacs/"/>
     
-      <category term="orgmode" scheme="https://github.com/zhengfaxiang/zhengfaxiang.github.io/tags/orgmode/"/>
+      <category term="orgmode" scheme="https://blog.fxzheng.com/tags/orgmode/"/>
     
-      <category term="hexo" scheme="https://github.com/zhengfaxiang/zhengfaxiang.github.io/tags/hexo/"/>
+      <category term="hexo" scheme="https://blog.fxzheng.com/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>Install Softwares for High-energy Astronomy</title>
-    <link href="https://github.com/zhengfaxiang/zhengfaxiang.github.io/2015/10/18/high-energy-soft-install/"/>
-    <id>https://github.com/zhengfaxiang/zhengfaxiang.github.io/2015/10/18/high-energy-soft-install/</id>
+    <link href="https://blog.fxzheng.com/2015/10/18/high-energy-soft-install/"/>
+    <id>https://blog.fxzheng.com/2015/10/18/high-energy-soft-install/</id>
     <published>2015-10-17T16:00:00.000Z</published>
     <updated>2016-05-01T19:24:27.793Z</updated>
     
@@ -188,14 +188,14 @@ sudo make install
     
     </summary>
     
-      <category term="Astronomy" scheme="https://github.com/zhengfaxiang/zhengfaxiang.github.io/categories/Astronomy/"/>
+      <category term="Astronomy" scheme="https://blog.fxzheng.com/categories/Astronomy/"/>
     
     
-      <category term="astronomy" scheme="https://github.com/zhengfaxiang/zhengfaxiang.github.io/tags/astronomy/"/>
+      <category term="astronomy" scheme="https://blog.fxzheng.com/tags/astronomy/"/>
     
-      <category term="linux" scheme="https://github.com/zhengfaxiang/zhengfaxiang.github.io/tags/linux/"/>
+      <category term="linux" scheme="https://blog.fxzheng.com/tags/linux/"/>
     
-      <category term="software" scheme="https://github.com/zhengfaxiang/zhengfaxiang.github.io/tags/software/"/>
+      <category term="software" scheme="https://blog.fxzheng.com/tags/software/"/>
     
   </entry>
   
