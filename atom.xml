@@ -92,7 +92,7 @@ Last Updated 2016-05-02 Mon 15:22.&lt;br&gt;Rendered by &lt;a href=&quot;https:/
     <link href="https://blog.fxzheng.com/2015/10/18/high-energy-soft-install/"/>
     <id>https://blog.fxzheng.com/2015/10/18/high-energy-soft-install/</id>
     <published>2015-10-18T00:00:00.000Z</published>
-    <updated>2016-05-02T07:53:30.314Z</updated>
+    <updated>2016-05-02T07:58:35.309Z</updated>
     
     <content type="html">
 
@@ -112,9 +112,10 @@ astronomy under &lt;code&gt;Archlinux&lt;/code&gt;
 &lt;/div&gt;&lt;div id=&quot;outline-container-sec-2-1&quot; class=&quot;outline-3&quot;&gt;
 &lt;h3 id=&quot;sec-2-1&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.1&lt;/span&gt; Install&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-1&quot;&gt;
-&lt;p&gt;
-yaourt -S ds9-bin
-&lt;/p&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;yaourt -S ds9-bin&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
 
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;/div&gt;
@@ -429,7 +430,7 @@ Typing &lt;code&gt;isis&lt;/code&gt; at your unix prompt
 &lt;/div&gt;
 &lt;/div&gt;
 
-Last Updated 2016-05-02 Mon 15:53.&lt;br&gt;Rendered by &lt;a href=&quot;https://github.com/CodeFalling/hexo-renderer-org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo-renderer-org&lt;/a&gt; with &lt;a href=&quot;http://www.gnu.org/software/emacs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Emacs&lt;/a&gt; 24.5.1 (&lt;a href=&quot;http://orgmode.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Org&lt;/a&gt; mode 8.2.10)
+Last Updated 2016-05-02 Mon 15:58.&lt;br&gt;Rendered by &lt;a href=&quot;https://github.com/CodeFalling/hexo-renderer-org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo-renderer-org&lt;/a&gt; with &lt;a href=&quot;http://www.gnu.org/software/emacs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Emacs&lt;/a&gt; 24.5.1 (&lt;a href=&quot;http://orgmode.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Org&lt;/a&gt; mode 8.2.10)
 </content>
     
     <summary type="html">
@@ -449,9 +450,10 @@ astronomy under &lt;code&gt;Archlinux&lt;/code&gt;
 &lt;/div&gt;&lt;div id=&quot;outline-container-sec-2-1&quot; class=&quot;outline-3&quot;&gt;
 &lt;h3 id=&quot;sec-2-1&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.1&lt;/span&gt; Install&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-1&quot;&gt;
-&lt;p&gt;
-yaourt -S ds9-bin
-&lt;/p&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;yaourt -S ds9-bin&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
     
     </summary>
     
