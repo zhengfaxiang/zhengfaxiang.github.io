@@ -92,12 +92,12 @@ Last Updated 2016-05-02 Mon 15:22.&lt;br&gt;Rendered by &lt;a href=&quot;https:/
     <link href="https://blog.fxzheng.com/2015/10/18/high-energy-soft-install/"/>
     <id>https://blog.fxzheng.com/2015/10/18/high-energy-soft-install/</id>
     <published>2015-10-17T16:00:00.000Z</published>
-    <updated>2016-05-02T07:20:16.975Z</updated>
+    <updated>2016-05-02T07:24:37.993Z</updated>
     
     <content type="html">&lt;h1 id=&quot;DS9&quot;&gt;&lt;a href=&quot;#DS9&quot; class=&quot;headerlink&quot; title=&quot;DS9&quot;&gt;&lt;/a&gt;DS9&lt;/h1&gt;&lt;h2 id=&quot;Install&quot;&gt;&lt;a href=&quot;#Install&quot; class=&quot;headerlink&quot; title=&quot;Install&quot;&gt;&lt;/a&gt;Install&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;yaourt -S ds9-bin
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;Check-Installation&quot;&gt;&lt;a href=&quot;#Check-Installation&quot; class=&quot;headerlink&quot; title=&quot;Check Installation&quot;&gt;&lt;/a&gt;Check Installation&lt;/h2&gt;&lt;p&gt;Run DS9 by typing &lt;code&gt;ds9&lt;/code&gt; in your unix prompt&lt;/p&gt;
-&lt;h1 id=&quot;HEASOFT&quot;&gt;&lt;a href=&quot;#HEASOFT&quot; class=&quot;headerlink&quot; title=&quot;HEASOFT&quot;&gt;&lt;/a&gt;HEASOFT&lt;/h1&gt;&lt;h2 id=&quot;Download-source-code&quot;&gt;&lt;a href=&quot;#Download-source-code&quot; class=&quot;headerlink&quot; title=&quot;Download source code&quot;&gt;&lt;/a&gt;Download source code&lt;/h2&gt;&lt;p&gt;Visit &lt;a href=&quot;http://heasarc.gsfc.nasa.gov/docs/software/lheasoft/download.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://heasarc.gsfc.nasa.gov/docs/software/lheasoft/download.html&lt;/a&gt;&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h1 id=&quot;HEASOFT&quot;&gt;&lt;a href=&quot;#HEASOFT&quot; class=&quot;headerlink&quot; title=&quot;HEASOFT&quot;&gt;&lt;/a&gt;HEASOFT&lt;/h1&gt;&lt;h2 id=&quot;Download-source-code&quot;&gt;&lt;a href=&quot;#Download-source-code&quot; class=&quot;headerlink&quot; title=&quot;Download source code&quot;&gt;&lt;/a&gt;Download source code&lt;/h2&gt;&lt;p&gt;Visit &lt;a href=&quot;http://heasarc.gsfc.nasa.gov/docs/software/lheasoft/download.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://heasarc.gsfc.nasa.gov/docs/software/lheasoft/download.html&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;Unpack-the-file-to-the-installation-directory&quot;&gt;&lt;a href=&quot;#Unpack-the-file-to-the-installation-directory&quot; class=&quot;headerlink&quot; title=&quot;Unpack the file to the installation directory&quot;&gt;&lt;/a&gt;Unpack the file to the installation directory&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;cd /usr/local/
 sudo tar zxvf /path/to/the/downloaded/file/heasoft-6.17src.tar.gz
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;Install-1&quot;&gt;&lt;a href=&quot;#Install-1&quot; class=&quot;headerlink&quot; title=&quot;Install&quot;&gt;&lt;/a&gt;Install&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;cd heasoft-6.17/BUILD_DIR
@@ -168,7 +168,6 @@ sudo make install
     
       &lt;h1 id=&quot;DS9&quot;&gt;&lt;a href=&quot;#DS9&quot; class=&quot;headerlink&quot; title=&quot;DS9&quot;&gt;&lt;/a&gt;DS9&lt;/h1&gt;&lt;h2 id=&quot;Install&quot;&gt;&lt;a href=&quot;#Install&quot; class=&quot;headerlink&quot; title=&quot;Install&quot;&gt;&lt;/a&gt;Install&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;yaourt -S ds9-bin
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;Check-Installation&quot;&gt;&lt;a href=&quot;#Check-Installation&quot; class=&quot;headerlink&quot; title=&quot;Check Installation&quot;&gt;&lt;/a&gt;Check Installation&lt;/h2&gt;&lt;p&gt;Run DS9 by typing &lt;code&gt;ds9&lt;/code&gt; in your unix prompt&lt;/p&gt;
-&lt;h1 id=&quot;HEASOFT&quot;&gt;&lt;a href=&quot;#HEASOFT&quot; class=&quot;headerlink&quot; title=&quot;HEASOFT&quot;&gt;&lt;/a&gt;HEASOFT&lt;/h1&gt;&lt;h2 id=&quot;Download-source-code&quot;&gt;&lt;a href=&quot;#Download-source-code&quot; class=&quot;headerlink&quot; title=&quot;Download source code&quot;&gt;&lt;/a&gt;Download source code&lt;/h2&gt;&lt;p&gt;Visit &lt;a href=&quot;http://heasarc.gsfc.nasa.gov/docs/software/lheasoft/download.html&quot;&gt;http://heasarc.gsfc.nasa.gov/docs/software/lheasoft/download.html&lt;/a&gt;&lt;/p&gt;
     
     </summary>
     
