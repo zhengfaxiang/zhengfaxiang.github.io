@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.fxzheng.com/"/>
-  <updated>2016-05-02T09:55:41.095Z</updated>
+  <updated>2016-05-02T10:08:45.945Z</updated>
   <id>https://blog.fxzheng.com/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Org-mode+Hexo</title>
+    <title>Orgmode+Hexo</title>
     <link href="https://blog.fxzheng.com/2016/05/02/test-org/"/>
     <id>https://blog.fxzheng.com/2016/05/02/test-org/</id>
     <published>2016-05-01T16:00:00.000Z</published>
-    <updated>2016-05-02T09:55:41.095Z</updated>
+    <updated>2016-05-02T10:08:45.945Z</updated>
     
     <content type="html">
 
@@ -31,6 +31,8 @@
 &lt;p&gt;
 Refer to &lt;a href=&quot;https://github.com/CodeFalling/hexo-renderer-org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;here&lt;/a&gt;
 &lt;/p&gt;
+
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&quot;outline-container-sec-2&quot; class=&quot;outline-2&quot;&gt;
@@ -49,7 +51,7 @@ Refer to &lt;a href=&quot;https://github.com/CodeFalling/hexo-renderer-org&quot;
 &lt;h3 id=&quot;sec-2-2&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.2&lt;/span&gt; LaTeX&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-2&quot;&gt;
 &lt;p&gt;
-$$\displaystyle\sum{}_{i=0}^{n}\frac{1}{n^2}$$
+$$\sum{}_{i=1}^{n}\frac{1}{n^2}$$
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -57,7 +59,7 @@ $$\displaystyle\sum{}_{i=0}^{n}\frac{1}{n^2}$$
 &lt;h3 id=&quot;sec-2-3&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.3&lt;/span&gt; Table&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-3&quot;&gt;
 &lt;table border=&quot;2&quot; cellspacing=&quot;0&quot; cellpadding=&quot;6&quot; rules=&quot;groups&quot; frame=&quot;hsides&quot;&gt;
-&lt;caption class=&quot;t-above&quot;&gt;&lt;span class=&quot;table-number&quot;&gt;Table 1:&lt;/span&gt; Test&lt;/caption&gt;
+&lt;caption class=&quot;t-above&quot;&gt;&lt;span class=&quot;table-number&quot;&gt;Table 1:&lt;/span&gt; Table test&lt;/caption&gt;
 
 &lt;colgroup&gt;
 &lt;col class=&quot;left&quot;&gt;
@@ -91,17 +93,17 @@ $$\displaystyle\sum{}_{i=0}^{n}\frac{1}{n^2}$$
 &lt;/div&gt;
 &lt;/div&gt;
 
-Last Updated 2016-05-02 Mon 17:55.&lt;br&gt;Rendered by &lt;a href=&quot;https://github.com/CodeFalling/hexo-renderer-org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo-renderer-org&lt;/a&gt; with &lt;a href=&quot;http://www.gnu.org/software/emacs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Emacs&lt;/a&gt; 24.5.1 (&lt;a href=&quot;http://orgmode.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Org&lt;/a&gt; mode 8.2.10)
+Last Updated 2016-05-02 Mon 18:08.&lt;br&gt;Rendered by &lt;a href=&quot;https://github.com/CodeFalling/hexo-renderer-org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo-renderer-org&lt;/a&gt; with &lt;a href=&quot;http://www.gnu.org/software/emacs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Emacs&lt;/a&gt; 24.5.1 (&lt;a href=&quot;http://orgmode.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Org&lt;/a&gt; mode 8.2.10)
 </content>
     
     <summary type="html">
     
-      
-
-
-&lt;div id=&quot;outline-container-sec-1&quot; class=&quot;outline-2&quot;&gt;
+      &lt;div id=&quot;outline-container-sec-1&quot; class=&quot;outline-2&quot;&gt;
 &lt;h2 id=&quot;sec-1&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; How to&lt;/h2&gt;
-&lt;div class=&quot;outli
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
+&lt;p&gt;
+Refer to &lt;a href=&quot;https://github.com/CodeFalling/hexo-renderer-org&quot;&gt;here&lt;/a&gt;
+&lt;/p&gt;
     
     </summary>
     
