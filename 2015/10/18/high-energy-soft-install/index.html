@@ -84,19 +84,61 @@
 
 
 
-<meta name="description" content="DS9Installyaourt -S ds9-bin
-Check InstallationRun DS9 by typing ds9 in your unix prompt">
+<meta name="description" content="1 Introduction
+
+
+This is a brief instruction of installing softwares for high-energy
+astronomy under Archlinux
+
+
+
+
+2 DS9
+
+
+2.1 Install
+
+
+yaourt -S ds9-bin">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Install Softwares for High-energy Astronomy">
 <meta property="og:url" content="https://blog.fxzheng.com/2015/10/18/high-energy-soft-install/index.html">
 <meta property="og:site_name" content="Fx Blog">
-<meta property="og:description" content="DS9Installyaourt -S ds9-bin
-Check InstallationRun DS9 by typing ds9 in your unix prompt">
-<meta property="og:updated_time" content="2016-05-02T07:24:37.993Z">
+<meta property="og:description" content="1 Introduction
+
+
+This is a brief instruction of installing softwares for high-energy
+astronomy under Archlinux
+
+
+
+
+2 DS9
+
+
+2.1 Install
+
+
+yaourt -S ds9-bin">
+<meta property="og:updated_time" content="2016-05-02T07:53:30.314Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Install Softwares for High-energy Astronomy">
-<meta name="twitter:description" content="DS9Installyaourt -S ds9-bin
-Check InstallationRun DS9 by typing ds9 in your unix prompt">
+<meta name="twitter:description" content="1 Introduction
+
+
+This is a brief instruction of installing softwares for high-energy
+astronomy under Archlinux
+
+
+
+
+2 DS9
+
+
+2.1 Install
+
+
+yaourt -S ds9-bin">
 
 
 
@@ -275,7 +317,7 @@ Check InstallationRun DS9 by typing ds9 in your unix prompt">
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">Posted on</span>
-            <time itemprop="dateCreated" datetime="2015-10-18T00:00:00+08:00" content="2015-10-18">
+            <time itemprop="dateCreated" datetime="2015-10-18T08:00:00+08:00" content="2015-10-18">
               2015-10-18
             </time>
           </span>
@@ -289,8 +331,8 @@ Check InstallationRun DS9 by typing ds9 in your unix prompt">
               <span class="post-meta-item-text">In</span>
               
                 <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/Astronomy/" itemprop="url" rel="index">
-                    <span itemprop="name">Astronomy</span>
+                  <a href="/categories/astronomy/" itemprop="url" rel="index">
+                    <span itemprop="name">astronomy</span>
                   </a>
                 </span>
 
@@ -329,74 +371,342 @@ Check InstallationRun DS9 by typing ds9 in your unix prompt">
       
 
       
-        <h1 id="DS9"><a href="#DS9" class="headerlink" title="DS9"></a>DS9</h1><h2 id="Install"><a href="#Install" class="headerlink" title="Install"></a>Install</h2><pre><code>yaourt -S ds9-bin
-</code></pre><h2 id="Check-Installation"><a href="#Check-Installation" class="headerlink" title="Check Installation"></a>Check Installation</h2><p>Run DS9 by typing <code>ds9</code> in your unix prompt</p>
+        
+
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> Introduction</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+This is a brief instruction of installing softwares for high-energy
+astronomy under <code>Archlinux</code>
+</p>
+</div>
+</div>
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> DS9</h2>
+<div class="outline-text-2" id="text-2">
+</div><div id="outline-container-sec-2-1" class="outline-3">
+<h3 id="sec-2-1"><span class="section-number-3">2.1</span> Install</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+yaourt -S ds9-bin
+</p>
+
 <a id="more"></a>
-<h1 id="HEASOFT"><a href="#HEASOFT" class="headerlink" title="HEASOFT"></a>HEASOFT</h1><h2 id="Download-source-code"><a href="#Download-source-code" class="headerlink" title="Download source code"></a>Download source code</h2><p>Visit <a href="http://heasarc.gsfc.nasa.gov/docs/software/lheasoft/download.html" target="_blank" rel="external">http://heasarc.gsfc.nasa.gov/docs/software/lheasoft/download.html</a></p>
-<h2 id="Unpack-the-file-to-the-installation-directory"><a href="#Unpack-the-file-to-the-installation-directory" class="headerlink" title="Unpack the file to the installation directory"></a>Unpack the file to the installation directory</h2><pre><code>cd /usr/local/
-sudo tar zxvf /path/to/the/downloaded/file/heasoft-6.17src.tar.gz
-</code></pre><h2 id="Install-1"><a href="#Install-1" class="headerlink" title="Install"></a>Install</h2><pre><code>cd heasoft-6.17/BUILD_DIR
-sudo ./configure
-sudo make
-sudo make install
-</code></pre><p>this may take some time, so be patient : -) or you can have a coffee ~</p>
-<h2 id="Add-the-environment-variables"><a href="#Add-the-environment-variables" class="headerlink" title="Add the environment variables"></a>Add the environment variables</h2><p>Add following code to your ~/.bashrc or ~/.zshrc</p>
-<pre><code>export HEADAS=/usr/local/heasoft-6.17/(PLATFORM)
-alias heainit=&quot;. $HEADAS/headas-init.sh&quot;
-</code></pre><p>where (PLATFORM) is a placeholder for the platform-specific string<br>denoting your machine’s architecture, for example: x86_64-unknown-linux-gnu-libc2. 22<br>in my Archlinux</p>
-<h2 id="Check-installation"><a href="#Check-installation" class="headerlink" title="Check installation"></a>Check installation</h2><p>Run <code>heainit</code> in your unix prompt</p>
-<h1 id="XMM-SAS"><a href="#XMM-SAS" class="headerlink" title="XMM SAS"></a>XMM SAS</h1><h2 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h2><p> Download from <a href="http://xmm.esac.esa.int/sas/current/downloadandinstall.shtml" target="_blank" rel="external">http://xmm.esac.esa.int/sas/current/downloadandinstall.shtml</a></p>
-<h2 id="Unpack-it-to-the-installation-directory"><a href="#Unpack-it-to-the-installation-directory" class="headerlink" title="Unpack it to the installation directory"></a>Unpack it to the installation directory</h2><pre><code>sudo mkdir /usr/local/SAS
-cd /usr/local/SAS
-sudo tar zxf /path/to/the/downloaded/file/sas_14.0.0-&lt;OS&gt;.tgz
-</code></pre><h2 id="Run-the-installation-file"><a href="#Run-the-installation-file" class="headerlink" title="Run the installation file"></a>Run the installation file</h2><pre><code>sudo ./install.sh
-</code></pre><h2 id="Environment-settings"><a href="#Environment-settings" class="headerlink" title="Environment settings"></a>Environment settings</h2><p>Add following code to your ~/.bashrc or ~/.zshrc</p>
-<pre><code>alias sasinit=&quot;. /usr/local/SAS/xmmsas_20141104_1833/setsas.sh&quot;
-</code></pre><h2 id="Check-installation-1"><a href="#Check-installation-1" class="headerlink" title="Check installation"></a>Check installation</h2><p>Run <code>sasinit</code> in your unix prompt</p>
-<h1 id="CALDB"><a href="#CALDB" class="headerlink" title="CALDB"></a>CALDB</h1><h2 id="Download-1"><a href="#Download-1" class="headerlink" title="Download"></a>Download</h2><ul>
-<li><p>Chandra</p>
-<p>  Visit <a href="http://cxc.harvard.edu/ciao/download/caldb.html#caldb" target="_blank" rel="external">http://cxc.harvard.edu/ciao/download/caldb.html#caldb</a> to download Chandra caldb</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> HEASOFT</h2>
+<div class="outline-text-2" id="text-3">
+</div><div id="outline-container-sec-3-1" class="outline-3">
+<h3 id="sec-3-1"><span class="section-number-3">3.1</span> Download</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+Visit <a href="http://heasarc.gsfc.nasa.gov/docs/software/lheasoft/download.html" target="_blank" rel="external">here</a> to download the source code
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-3-2" class="outline-3">
+<h3 id="sec-3-2"><span class="section-number-3">3.2</span> Unpack to the installation directory</h3>
+<div class="outline-text-3" id="text-3-2">
+<div class="org-src-container">
+
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> /usr/<span class="built_in">local</span>/</span><br><span class="line">sudo tar zxvf /path/to/the/downloaded/file/heasoft-<span class="number">6.17</span>src.tar.gz</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-3-3" class="outline-3">
+<h3 id="sec-3-3"><span class="section-number-3">3.3</span> Install</h3>
+<div class="outline-text-3" id="text-3-3">
+<div class="org-src-container">
+
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> heasoft-<span class="number">6.17</span>/BUILD_DIR</span><br><span class="line">sudo ./configure</span><br><span class="line">sudo make</span><br><span class="line">sudo make install</span><br></pre></td></tr></table></figure>
+</div>
+
+<p>
+this may take some time, so be patient : -) or you can have a coffee ~
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-3-4" class="outline-3">
+<h3 id="sec-3-4"><span class="section-number-3">3.4</span> Set environment</h3>
+<div class="outline-text-3" id="text-3-4">
+<p>
+Add following code to your <code>~/.bashrc</code> or <code>~/.zshrc</code>
+</p>
+
+<div class="org-src-container">
+
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">export</span> HEADAS=/usr/<span class="built_in">local</span>/heasoft-<span class="number">6.17</span>/(PLATFORM)</span><br><span class="line"><span class="built_in">alias</span> heainit=<span class="string">&quot;. <span class="variable">$HEADAS</span>/headas-init.sh&quot;</span></span><br></pre></td></tr></table></figure>
+</div>
+
+<p>
+where (PLATFORM) is a placeholder for the platform-specific string 
+denoting your machine&apos;s architecture, for example: <code>x86_64-unknown-linux-gnu-libc2. 22</code>
+in my Archlinux
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-3-5" class="outline-3">
+<h3 id="sec-3-5"><span class="section-number-3">3.5</span> Check</h3>
+<div class="outline-text-3" id="text-3-5">
+<p>
+Run <code>heainit</code> in your unix prompt
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-4" class="outline-2">
+<h2 id="sec-4"><span class="section-number-2">4</span> XMM SAS</h2>
+<div class="outline-text-2" id="text-4">
+</div><div id="outline-container-sec-4-1" class="outline-3">
+<h3 id="sec-4-1"><span class="section-number-3">4.1</span> Download</h3>
+<div class="outline-text-3" id="text-4-1">
+<p>
+Download from <a href="http://xmm.esac.esa.int/sas/current/downloadandinstall.shtml" target="_blank" rel="external">here</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-4-2" class="outline-3">
+<h3 id="sec-4-2"><span class="section-number-3">4.2</span> Unpack</h3>
+<div class="outline-text-3" id="text-4-2">
+<div class="org-src-container">
+
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">sudo mkdir /usr/<span class="built_in">local</span>/SAS</span><br><span class="line"><span class="built_in">cd</span> /usr/<span class="built_in">local</span>/SAS</span><br><span class="line">sudo tar zxf /path/to/the/downloaded/file/sas_14.<span class="number">0.0</span>-&lt;OS&gt;.tgz</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-4-3" class="outline-3">
+<h3 id="sec-4-3"><span class="section-number-3">4.3</span> Run the installation file</h3>
+<div class="outline-text-3" id="text-4-3">
+<div class="org-src-container">
+
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">sudo ./install.sh</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-4-4" class="outline-3">
+<h3 id="sec-4-4"><span class="section-number-3">4.4</span> Set environment</h3>
+<div class="outline-text-3" id="text-4-4">
+<p>
+Add following code to your <code>~/.bashrc</code> or <code>~/.zshrc</code>
+</p>
+
+<div class="org-src-container">
+
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">alias</span> sasinit=<span class="string">&quot;. /usr/local/SAS/xmmsas_20141104_1833/setsas.sh&quot;</span></span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-4-5" class="outline-3">
+<h3 id="sec-4-5"><span class="section-number-3">4.5</span> Check</h3>
+<div class="outline-text-3" id="text-4-5">
+<p>
+Run <code>sasinit</code> in your unix prompt
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-5" class="outline-2">
+<h2 id="sec-5"><span class="section-number-2">5</span> CALDB</h2>
+<div class="outline-text-2" id="text-5">
+</div><div id="outline-container-sec-5-1" class="outline-3">
+<h3 id="sec-5-1"><span class="section-number-3">5.1</span> Download</h3>
+<div class="outline-text-3" id="text-5-1">
+<ul class="org-ul">
+<li>Chandra
+
+<p>
+Visit <a href="http://cxc.harvard.edu/ciao/download/caldb.html#caldb" target="_blank" rel="external">here</a> to download Chandra caldb
+</p>
 </li>
-<li><p>Others</p>
-<p>  Visit <a href="http://heasarc.gsfc.nasa.gov/docs/heasarc/caldb/caldb_supported_missions.html" target="_blank" rel="external">http://heasarc.gsfc.nasa.gov/docs/heasarc/caldb/caldb_supported_missions.html</a> to download<br>  caldb of missions needed such as Suzaku</p>
+<li>Others
+
+<p>
+Visit <a href="http://heasarc.gsfc.nasa.gov/docs/heasarc/caldb/caldb_supported_missions.html" target="_blank" rel="external">here</a> to download caldb of missions needed such as <code>Suzaku</code>
+</p>
 </li>
 </ul>
-<h2 id="Unpack-to-the-installation-directory"><a href="#Unpack-to-the-installation-directory" class="headerlink" title="Unpack to the installation directory"></a>Unpack to the installation directory</h2><pre><code>mkdir ~/caldb
-cd ~/caldb
-tar zxvf /path/to/the/downloaded/file/caldb_4.6.9_main.tar.gz
-tar zxvf /path/to/the/downloaded/file/goodfiles_suzaku_xis_bcf_20151005.tar.gz
-tar zxvf /path/to/the/downloaded/file/goodfiles_suzaku_xis_cpf_20151005.tar.gz
-tar zxvf /path/to/the/downloaded/file/goodfiles_suzaku_xis_index_20151005.tar.gz
-</code></pre><h2 id="Environment-settings-1"><a href="#Environment-settings-1" class="headerlink" title="Environment settings"></a>Environment settings</h2><p>Add following code to your ~/.bashrc or ~/.zshrc</p>
-<pre><code>export CALDB=$HOME/caldb
-export CALDBCONFIG=$CALDB/software/tools/caldb.config
-export CALDBALIAS=$CALDB/software/tools/alias_config.fits
-</code></pre><h1 id="CIAO"><a href="#CIAO" class="headerlink" title="CIAO"></a>CIAO</h1><h2 id="Before-installation"><a href="#Before-installation" class="headerlink" title="Before installation"></a>Before installation</h2><p>link installed CALDB to your CIAO installation directory</p>
-<pre><code>ln -s ~/caldb ~/ciao-4.7/CALDB
-</code></pre><h2 id="Download-ciao-install-and-run-it"><a href="#Download-ciao-install-and-run-it" class="headerlink" title="Download ciao-install and run it"></a>Download ciao-install and run it</h2><p>Download from <a href="http://cxc.harvard.edu/ciao/download/" target="_blank" rel="external">http://cxc.harvard.edu/ciao/download/</a></p>
-<pre><code>./ciao-install
-</code></pre><p>just install ciao to your home directory : -)</p>
-<h2 id="Install-dependences"><a href="#Install-dependences" class="headerlink" title="Install dependences"></a>Install dependences</h2><pre><code>yaourt -S libselinux
-</code></pre><p>and more…</p>
-<h2 id="Fix-a-bug"><a href="#Fix-a-bug" class="headerlink" title="Fix a bug"></a>Fix a bug</h2><p>I got something like:</p>
-<pre><code>sh: symbol lookup error: sh: undefined symbol: rl_signal_event_hook
-</code></pre><p>during installation, duckduckgoaround, I figured out following solution:</p>
-<pre><code>cd ~/ciao-4.7/ots/lib/
-mv libreadline.so.6 libreadline.so.6.bak
-mv libreadline.so libreadline.so.bak
-ln -s /usr/lib/libreadline.so.6.3 ~/ciao-4.7/ots/lib/libreadline.so.6
-ln -s /usr/lib/libreadline.so.6 ~/ciao-4.7/ots/lib/libreadline.so
-</code></pre><h2 id="Environment-setting"><a href="#Environment-setting" class="headerlink" title="Environment setting"></a>Environment setting</h2><p>Add following code to your ~/.bashrc or ~/.zshrc</p>
-<pre><code>alias ciao=&quot;source ~/ciao-4.7/bin/ciao.bash&quot;
-</code></pre><h2 id="Check-installation-2"><a href="#Check-installation-2" class="headerlink" title="Check installation"></a>Check installation</h2><pre><code>ciao
-check_ciao_caldb
-</code></pre><h1 id="ISIS"><a href="#ISIS" class="headerlink" title="ISIS"></a>ISIS</h1><h2 id="Ensure-that-slang-has-been-installed-into-a-standard-location"><a href="#Ensure-that-slang-has-been-installed-into-a-standard-location" class="headerlink" title="Ensure that slang has been installed into a standard location"></a>Ensure that slang has been installed into a standard location</h2><h2 id="Download-source-file-using-git"><a href="#Download-source-file-using-git" class="headerlink" title="Download source file using git"></a>Download source file using git</h2><pre><code>git clone http://space.mit.edu/cxc/isis/isis.git ~/Downloads/isis-src
-</code></pre><h2 id="Build-and-install"><a href="#Build-and-install" class="headerlink" title="Build and install"></a>Build and install</h2><pre><code>cd ~/Downloads/isis-src
-./configure --with-headas=$HEADAS
-make
-make check
-sudo make install
-</code></pre><h2 id="Check-installation-3"><a href="#Check-installation-3" class="headerlink" title="Check installation"></a>Check installation</h2><p>After isis is installed, you should be able to run it by<br>typing <code>isis</code> at the unix prompt</p>
+</div>
+</div>
+
+<div id="outline-container-sec-5-2" class="outline-3">
+<h3 id="sec-5-2"><span class="section-number-3">5.2</span> Unpack</h3>
+<div class="outline-text-3" id="text-5-2">
+<div class="org-src-container">
+
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">mkdir ~/caldb</span><br><span class="line"><span class="built_in">cd</span> ~/caldb</span><br><span class="line">tar zxvf /path/to/the/downloaded/file/caldb_4.<span class="number">6.9</span>_main.tar.gz</span><br><span class="line">tar zxvf /path/to/the/downloaded/file/goodfiles_suzaku_xis_bcf_20151005.tar.gz</span><br><span class="line">tar zxvf /path/to/the/downloaded/file/goodfiles_suzaku_xis_cpf_20151005.tar.gz</span><br><span class="line">tar zxvf /path/to/the/downloaded/file/goodfiles_suzaku_xis_index_20151005.tar.gz</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-5-3" class="outline-3">
+<h3 id="sec-5-3"><span class="section-number-3">5.3</span> Set environment</h3>
+<div class="outline-text-3" id="text-5-3">
+<p>
+Add following code to your <code>~/.bashrc</code> or <code>~/.zshrc</code>
+</p>
+
+<div class="org-src-container">
+
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">export</span> CALDB=<span class="variable">$HOME</span>/caldb</span><br><span class="line"><span class="built_in">export</span> CALDBCONFIG=<span class="variable">$CALDB</span>/software/tools/caldb.config</span><br><span class="line"><span class="built_in">export</span> CALDBALIAS=<span class="variable">$CALDB</span>/software/tools/<span class="built_in">alias</span>_config.fits</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-6" class="outline-2">
+<h2 id="sec-6"><span class="section-number-2">6</span> CIAO</h2>
+<div class="outline-text-2" id="text-6">
+</div><div id="outline-container-sec-6-1" class="outline-3">
+<h3 id="sec-6-1"><span class="section-number-3">6.1</span> Before installation</h3>
+<div class="outline-text-3" id="text-6-1">
+<p>
+link installed CALDB to your CIAO installation directory
+</p>
+
+<div class="org-src-container">
+
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">ln <span class="operator">-s</span> ~/caldb ~/ciao-<span class="number">4.7</span>/CALDB</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-6-2" class="outline-3">
+<h3 id="sec-6-2"><span class="section-number-3">6.2</span> Download <code>ciao-install</code> and run it</h3>
+<div class="outline-text-3" id="text-6-2">
+<p>
+Download from <a href="http://cxc.harvard.edu/ciao/download/" target="_blank" rel="external">here</a>
+</p>
+
+<div class="org-src-container">
+
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">./ciao-install</span><br></pre></td></tr></table></figure>
+</div>
+
+<p>
+just install ciao to your home directory : -)
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-6-3" class="outline-3">
+<h3 id="sec-6-3"><span class="section-number-3">6.3</span> Install dependences</h3>
+<div class="outline-text-3" id="text-6-3">
+<div class="org-src-container">
+
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">yaourt -S libselinux</span><br></pre></td></tr></table></figure>
+</div>
+
+<p>
+and any other if required
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-6-4" class="outline-3">
+<h3 id="sec-6-4"><span class="section-number-3">6.4</span> Fix a bug</h3>
+<div class="outline-text-3" id="text-6-4">
+<p>
+I got something like:
+</p>
+
+<pre class="example">
+sh: symbol lookup error: sh: undefined symbol: rl_signal_event_hook
+</pre>
+
+<p>
+duckduckgoaround, I figured out the following solution:
+</p>
+
+<div class="org-src-container">
+
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~/ciao-<span class="number">4.7</span>/ots/lib/</span><br><span class="line">mv libreadline.so.<span class="number">6</span> libreadline.so.<span class="number">6</span>.bak</span><br><span class="line">mv libreadline.so libreadline.so.bak</span><br><span class="line">ln <span class="operator">-s</span> /usr/lib/libreadline.so.<span class="number">6.3</span> ~/ciao-<span class="number">4.7</span>/ots/lib/libreadline.so.<span class="number">6</span></span><br><span class="line">ln <span class="operator">-s</span> /usr/lib/libreadline.so.<span class="number">6</span> ~/ciao-<span class="number">4.7</span>/ots/lib/libreadline.so</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-6-5" class="outline-3">
+<h3 id="sec-6-5"><span class="section-number-3">6.5</span> Set environment</h3>
+<div class="outline-text-3" id="text-6-5">
+<p>
+Add following code to your <code>~/.bashrc</code> or <code>~/.zshrc</code>
+</p>
+
+<div class="org-src-container">
+
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">alias</span> ciao=<span class="string">&quot;source ~/ciao-4.7/bin/ciao.bash&quot;</span></span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-6-6" class="outline-3">
+<h3 id="sec-6-6"><span class="section-number-3">6.6</span> Check</h3>
+<div class="outline-text-3" id="text-6-6">
+<div class="org-src-container">
+
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">ciao</span><br><span class="line">check_ciao_caldb</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-7" class="outline-2">
+<h2 id="sec-7"><span class="section-number-2">7</span> ISIS</h2>
+<div class="outline-text-2" id="text-7">
+</div><div id="outline-container-sec-7-1" class="outline-3">
+<h3 id="sec-7-1"><span class="section-number-3">7.1</span> Install dependencies</h3>
+<div class="outline-text-3" id="text-7-1">
+<p>
+Make sure that <code>slang</code> has been installed
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-7-2" class="outline-3">
+<h3 id="sec-7-2"><span class="section-number-3">7.2</span> Clone source by git</h3>
+<div class="outline-text-3" id="text-7-2">
+<div class="org-src-container">
+
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> http://space.mit.edu/cxc/isis/isis.git ~/Downloads/isis-src</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-7-3" class="outline-3">
+<h3 id="sec-7-3"><span class="section-number-3">7.3</span> Build and install</h3>
+<div class="outline-text-3" id="text-7-3">
+<div class="org-src-container">
+
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~/Downloads/isis-src</span><br><span class="line">./configure --with-headas=<span class="variable">$HEADAS</span></span><br><span class="line">make</span><br><span class="line">make check</span><br><span class="line">sudo make install</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-7-4" class="outline-3">
+<h3 id="sec-7-4"><span class="section-number-3">7.4</span> Check installation</h3>
+<div class="outline-text-3" id="text-7-4">
+<p>
+Typing <code>isis</code> at your unix prompt
+</p>
+</div>
+</div>
+</div>
+
+Last Updated 2016-05-02 Mon 15:53.<br>Rendered by <a href="https://github.com/CodeFalling/hexo-renderer-org" target="_blank" rel="external">hexo-renderer-org</a> with <a href="http://www.gnu.org/software/emacs/" target="_blank" rel="external">Emacs</a> 24.5.1 (<a href="http://orgmode.org" target="_blank" rel="external">Org</a> mode 8.2.10)
 
       
     </div>
@@ -542,7 +852,7 @@ sudo make install
           
             <div class="site-state-item site-state-categories">
               <a href="/categories">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">categories</span>
               </a>
             </div>
@@ -613,7 +923,7 @@ sudo make install
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#DS9"><span class="nav-number">1.</span> <span class="nav-text">DS9</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Install"><span class="nav-number">1.1.</span> <span class="nav-text">Install</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Check-Installation"><span class="nav-number">1.2.</span> <span class="nav-text">Check Installation</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#HEASOFT"><span class="nav-number">2.</span> <span class="nav-text">HEASOFT</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Download-source-code"><span class="nav-number">2.1.</span> <span class="nav-text">Download source code</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Unpack-the-file-to-the-installation-directory"><span class="nav-number">2.2.</span> <span class="nav-text">Unpack the file to the installation directory</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Install-1"><span class="nav-number">2.3.</span> <span class="nav-text">Install</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Add-the-environment-variables"><span class="nav-number">2.4.</span> <span class="nav-text">Add the environment variables</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Check-installation"><span class="nav-number">2.5.</span> <span class="nav-text">Check installation</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#XMM-SAS"><span class="nav-number">3.</span> <span class="nav-text">XMM SAS</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Download"><span class="nav-number">3.1.</span> <span class="nav-text">Download</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Unpack-it-to-the-installation-directory"><span class="nav-number">3.2.</span> <span class="nav-text">Unpack it to the installation directory</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Run-the-installation-file"><span class="nav-number">3.3.</span> <span class="nav-text">Run the installation file</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Environment-settings"><span class="nav-number">3.4.</span> <span class="nav-text">Environment settings</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Check-installation-1"><span class="nav-number">3.5.</span> <span class="nav-text">Check installation</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#CALDB"><span class="nav-number">4.</span> <span class="nav-text">CALDB</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Download-1"><span class="nav-number">4.1.</span> <span class="nav-text">Download</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Unpack-to-the-installation-directory"><span class="nav-number">4.2.</span> <span class="nav-text">Unpack to the installation directory</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Environment-settings-1"><span class="nav-number">4.3.</span> <span class="nav-text">Environment settings</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#CIAO"><span class="nav-number">5.</span> <span class="nav-text">CIAO</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Before-installation"><span class="nav-number">5.1.</span> <span class="nav-text">Before installation</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Download-ciao-install-and-run-it"><span class="nav-number">5.2.</span> <span class="nav-text">Download ciao-install and run it</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Install-dependences"><span class="nav-number">5.3.</span> <span class="nav-text">Install dependences</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Fix-a-bug"><span class="nav-number">5.4.</span> <span class="nav-text">Fix a bug</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Environment-setting"><span class="nav-number">5.5.</span> <span class="nav-text">Environment setting</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Check-installation-2"><span class="nav-number">5.6.</span> <span class="nav-text">Check installation</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#ISIS"><span class="nav-number">6.</span> <span class="nav-text">ISIS</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Ensure-that-slang-has-been-installed-into-a-standard-location"><span class="nav-number">6.1.</span> <span class="nav-text">Ensure that slang has been installed into a standard location</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Download-source-file-using-git"><span class="nav-number">6.2.</span> <span class="nav-text">Download source file using git</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Build-and-install"><span class="nav-number">6.3.</span> <span class="nav-text">Build and install</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Check-installation-3"><span class="nav-number">6.4.</span> <span class="nav-text">Check installation</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#sec-1"><span class="nav-number">1.</span> <span class="nav-text">1 Introduction</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#sec-2"><span class="nav-number">2.</span> <span class="nav-text">2 DS9</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-2-1"><span class="nav-number">2.1.</span> <span class="nav-text">2.1 Install</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#sec-3"><span class="nav-number">3.</span> <span class="nav-text">3 HEASOFT</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-3-1"><span class="nav-number">3.1.</span> <span class="nav-text">3.1 Download</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-3-2"><span class="nav-number">3.2.</span> <span class="nav-text">3.2 Unpack to the installation directory</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-3-3"><span class="nav-number">3.3.</span> <span class="nav-text">3.3 Install</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-3-4"><span class="nav-number">3.4.</span> <span class="nav-text">3.4 Set environment</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-3-5"><span class="nav-number">3.5.</span> <span class="nav-text">3.5 Check</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#sec-4"><span class="nav-number">4.</span> <span class="nav-text">4 XMM SAS</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-4-1"><span class="nav-number">4.1.</span> <span class="nav-text">4.1 Download</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-4-2"><span class="nav-number">4.2.</span> <span class="nav-text">4.2 Unpack</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-4-3"><span class="nav-number">4.3.</span> <span class="nav-text">4.3 Run the installation file</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-4-4"><span class="nav-number">4.4.</span> <span class="nav-text">4.4 Set environment</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-4-5"><span class="nav-number">4.5.</span> <span class="nav-text">4.5 Check</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#sec-5"><span class="nav-number">5.</span> <span class="nav-text">5 CALDB</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-5-1"><span class="nav-number">5.1.</span> <span class="nav-text">5.1 Download</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-5-2"><span class="nav-number">5.2.</span> <span class="nav-text">5.2 Unpack</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-5-3"><span class="nav-number">5.3.</span> <span class="nav-text">5.3 Set environment</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#sec-6"><span class="nav-number">6.</span> <span class="nav-text">6 CIAO</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-6-1"><span class="nav-number">6.1.</span> <span class="nav-text">6.1 Before installation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-6-2"><span class="nav-number">6.2.</span> <span class="nav-text">6.2 Download ciao-install and run it</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-6-3"><span class="nav-number">6.3.</span> <span class="nav-text">6.3 Install dependences</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-6-4"><span class="nav-number">6.4.</span> <span class="nav-text">6.4 Fix a bug</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-6-5"><span class="nav-number">6.5.</span> <span class="nav-text">6.5 Set environment</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-6-6"><span class="nav-number">6.6.</span> <span class="nav-text">6.6 Check</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#sec-7"><span class="nav-number">7.</span> <span class="nav-text">7 ISIS</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-7-1"><span class="nav-number">7.1.</span> <span class="nav-text">7.1 Install dependencies</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-7-2"><span class="nav-number">7.2.</span> <span class="nav-text">7.2 Clone source by git</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-7-3"><span class="nav-number">7.3.</span> <span class="nav-text">7.3 Build and install</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-7-4"><span class="nav-number">7.4.</span> <span class="nav-text">7.4 Check installation</span></a></li></ol></li></ol></div>
             
           </div>
         </section>

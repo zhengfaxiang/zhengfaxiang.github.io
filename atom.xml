@@ -91,87 +91,371 @@ Last Updated 2016-05-02 Mon 15:22.&lt;br&gt;Rendered by &lt;a href=&quot;https:/
     <title>Install Softwares for High-energy Astronomy</title>
     <link href="https://blog.fxzheng.com/2015/10/18/high-energy-soft-install/"/>
     <id>https://blog.fxzheng.com/2015/10/18/high-energy-soft-install/</id>
-    <published>2015-10-17T16:00:00.000Z</published>
-    <updated>2016-05-02T07:24:37.993Z</updated>
+    <published>2015-10-18T00:00:00.000Z</published>
+    <updated>2016-05-02T07:53:30.314Z</updated>
     
-    <content type="html">&lt;h1 id=&quot;DS9&quot;&gt;&lt;a href=&quot;#DS9&quot; class=&quot;headerlink&quot; title=&quot;DS9&quot;&gt;&lt;/a&gt;DS9&lt;/h1&gt;&lt;h2 id=&quot;Install&quot;&gt;&lt;a href=&quot;#Install&quot; class=&quot;headerlink&quot; title=&quot;Install&quot;&gt;&lt;/a&gt;Install&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;yaourt -S ds9-bin
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;Check-Installation&quot;&gt;&lt;a href=&quot;#Check-Installation&quot; class=&quot;headerlink&quot; title=&quot;Check Installation&quot;&gt;&lt;/a&gt;Check Installation&lt;/h2&gt;&lt;p&gt;Run DS9 by typing &lt;code&gt;ds9&lt;/code&gt; in your unix prompt&lt;/p&gt;
+    <content type="html">
+
+
+&lt;div id=&quot;outline-container-sec-1&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-1&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Introduction&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
+&lt;p&gt;
+This is a brief instruction of installing softwares for high-energy
+astronomy under &lt;code&gt;Archlinux&lt;/code&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-2&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-2&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; DS9&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
+&lt;/div&gt;&lt;div id=&quot;outline-container-sec-2-1&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-2-1&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.1&lt;/span&gt; Install&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-1&quot;&gt;
+&lt;p&gt;
+yaourt -S ds9-bin
+&lt;/p&gt;
+
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h1 id=&quot;HEASOFT&quot;&gt;&lt;a href=&quot;#HEASOFT&quot; class=&quot;headerlink&quot; title=&quot;HEASOFT&quot;&gt;&lt;/a&gt;HEASOFT&lt;/h1&gt;&lt;h2 id=&quot;Download-source-code&quot;&gt;&lt;a href=&quot;#Download-source-code&quot; class=&quot;headerlink&quot; title=&quot;Download source code&quot;&gt;&lt;/a&gt;Download source code&lt;/h2&gt;&lt;p&gt;Visit &lt;a href=&quot;http://heasarc.gsfc.nasa.gov/docs/software/lheasoft/download.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://heasarc.gsfc.nasa.gov/docs/software/lheasoft/download.html&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;Unpack-the-file-to-the-installation-directory&quot;&gt;&lt;a href=&quot;#Unpack-the-file-to-the-installation-directory&quot; class=&quot;headerlink&quot; title=&quot;Unpack the file to the installation directory&quot;&gt;&lt;/a&gt;Unpack the file to the installation directory&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;cd /usr/local/
-sudo tar zxvf /path/to/the/downloaded/file/heasoft-6.17src.tar.gz
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;Install-1&quot;&gt;&lt;a href=&quot;#Install-1&quot; class=&quot;headerlink&quot; title=&quot;Install&quot;&gt;&lt;/a&gt;Install&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;cd heasoft-6.17/BUILD_DIR
-sudo ./configure
-sudo make
-sudo make install
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;this may take some time, so be patient : -) or you can have a coffee ~&lt;/p&gt;
-&lt;h2 id=&quot;Add-the-environment-variables&quot;&gt;&lt;a href=&quot;#Add-the-environment-variables&quot; class=&quot;headerlink&quot; title=&quot;Add the environment variables&quot;&gt;&lt;/a&gt;Add the environment variables&lt;/h2&gt;&lt;p&gt;Add following code to your ~/.bashrc or ~/.zshrc&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;export HEADAS=/usr/local/heasoft-6.17/(PLATFORM)
-alias heainit=&amp;quot;. $HEADAS/headas-init.sh&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;where (PLATFORM) is a placeholder for the platform-specific string&lt;br&gt;denoting your machine’s architecture, for example: x86_64-unknown-linux-gnu-libc2. 22&lt;br&gt;in my Archlinux&lt;/p&gt;
-&lt;h2 id=&quot;Check-installation&quot;&gt;&lt;a href=&quot;#Check-installation&quot; class=&quot;headerlink&quot; title=&quot;Check installation&quot;&gt;&lt;/a&gt;Check installation&lt;/h2&gt;&lt;p&gt;Run &lt;code&gt;heainit&lt;/code&gt; in your unix prompt&lt;/p&gt;
-&lt;h1 id=&quot;XMM-SAS&quot;&gt;&lt;a href=&quot;#XMM-SAS&quot; class=&quot;headerlink&quot; title=&quot;XMM SAS&quot;&gt;&lt;/a&gt;XMM SAS&lt;/h1&gt;&lt;h2 id=&quot;Download&quot;&gt;&lt;a href=&quot;#Download&quot; class=&quot;headerlink&quot; title=&quot;Download&quot;&gt;&lt;/a&gt;Download&lt;/h2&gt;&lt;p&gt; Download from &lt;a href=&quot;http://xmm.esac.esa.int/sas/current/downloadandinstall.shtml&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://xmm.esac.esa.int/sas/current/downloadandinstall.shtml&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;Unpack-it-to-the-installation-directory&quot;&gt;&lt;a href=&quot;#Unpack-it-to-the-installation-directory&quot; class=&quot;headerlink&quot; title=&quot;Unpack it to the installation directory&quot;&gt;&lt;/a&gt;Unpack it to the installation directory&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;sudo mkdir /usr/local/SAS
-cd /usr/local/SAS
-sudo tar zxf /path/to/the/downloaded/file/sas_14.0.0-&amp;lt;OS&amp;gt;.tgz
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;Run-the-installation-file&quot;&gt;&lt;a href=&quot;#Run-the-installation-file&quot; class=&quot;headerlink&quot; title=&quot;Run the installation file&quot;&gt;&lt;/a&gt;Run the installation file&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;sudo ./install.sh
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;Environment-settings&quot;&gt;&lt;a href=&quot;#Environment-settings&quot; class=&quot;headerlink&quot; title=&quot;Environment settings&quot;&gt;&lt;/a&gt;Environment settings&lt;/h2&gt;&lt;p&gt;Add following code to your ~/.bashrc or ~/.zshrc&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;alias sasinit=&amp;quot;. /usr/local/SAS/xmmsas_20141104_1833/setsas.sh&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;Check-installation-1&quot;&gt;&lt;a href=&quot;#Check-installation-1&quot; class=&quot;headerlink&quot; title=&quot;Check installation&quot;&gt;&lt;/a&gt;Check installation&lt;/h2&gt;&lt;p&gt;Run &lt;code&gt;sasinit&lt;/code&gt; in your unix prompt&lt;/p&gt;
-&lt;h1 id=&quot;CALDB&quot;&gt;&lt;a href=&quot;#CALDB&quot; class=&quot;headerlink&quot; title=&quot;CALDB&quot;&gt;&lt;/a&gt;CALDB&lt;/h1&gt;&lt;h2 id=&quot;Download-1&quot;&gt;&lt;a href=&quot;#Download-1&quot; class=&quot;headerlink&quot; title=&quot;Download&quot;&gt;&lt;/a&gt;Download&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Chandra&lt;/p&gt;
-&lt;p&gt;  Visit &lt;a href=&quot;http://cxc.harvard.edu/ciao/download/caldb.html#caldb&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://cxc.harvard.edu/ciao/download/caldb.html#caldb&lt;/a&gt; to download Chandra caldb&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-sec-3&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-3&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; HEASOFT&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
+&lt;/div&gt;&lt;div id=&quot;outline-container-sec-3-1&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-3-1&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;3.1&lt;/span&gt; Download&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-3-1&quot;&gt;
+&lt;p&gt;
+Visit &lt;a href=&quot;http://heasarc.gsfc.nasa.gov/docs/software/lheasoft/download.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;here&lt;/a&gt; to download the source code
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-sec-3-2&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-3-2&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;3.2&lt;/span&gt; Unpack to the installation directory&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-3-2&quot;&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; /usr/&lt;span class=&quot;built_in&quot;&gt;local&lt;/span&gt;/&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sudo tar zxvf /path/to/the/downloaded/file/heasoft-&lt;span class=&quot;number&quot;&gt;6.17&lt;/span&gt;src.tar.gz&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-sec-3-3&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-3-3&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;3.3&lt;/span&gt; Install&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-3-3&quot;&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; heasoft-&lt;span class=&quot;number&quot;&gt;6.17&lt;/span&gt;/BUILD_DIR&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sudo ./configure&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sudo make&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sudo make install&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+this may take some time, so be patient : -) or you can have a coffee ~
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-sec-3-4&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-3-4&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;3.4&lt;/span&gt; Set environment&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-3-4&quot;&gt;
+&lt;p&gt;
+Add following code to your &lt;code&gt;~/.bashrc&lt;/code&gt; or &lt;code&gt;~/.zshrc&lt;/code&gt;
+&lt;/p&gt;
+
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;export&lt;/span&gt; HEADAS=/usr/&lt;span class=&quot;built_in&quot;&gt;local&lt;/span&gt;/heasoft-&lt;span class=&quot;number&quot;&gt;6.17&lt;/span&gt;/(PLATFORM)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;alias&lt;/span&gt; heainit=&lt;span class=&quot;string&quot;&gt;&amp;quot;. &lt;span class=&quot;variable&quot;&gt;$HEADAS&lt;/span&gt;/headas-init.sh&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+where (PLATFORM) is a placeholder for the platform-specific string 
+denoting your machine&amp;apos;s architecture, for example: &lt;code&gt;x86_64-unknown-linux-gnu-libc2. 22&lt;/code&gt;
+in my Archlinux
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-sec-3-5&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-3-5&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;3.5&lt;/span&gt; Check&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-3-5&quot;&gt;
+&lt;p&gt;
+Run &lt;code&gt;heainit&lt;/code&gt; in your unix prompt
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-sec-4&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-4&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; XMM SAS&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-4&quot;&gt;
+&lt;/div&gt;&lt;div id=&quot;outline-container-sec-4-1&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-4-1&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;4.1&lt;/span&gt; Download&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-4-1&quot;&gt;
+&lt;p&gt;
+Download from &lt;a href=&quot;http://xmm.esac.esa.int/sas/current/downloadandinstall.shtml&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;here&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-sec-4-2&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-4-2&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;4.2&lt;/span&gt; Unpack&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-4-2&quot;&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;sudo mkdir /usr/&lt;span class=&quot;built_in&quot;&gt;local&lt;/span&gt;/SAS&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; /usr/&lt;span class=&quot;built_in&quot;&gt;local&lt;/span&gt;/SAS&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sudo tar zxf /path/to/the/downloaded/file/sas_14.&lt;span class=&quot;number&quot;&gt;0.0&lt;/span&gt;-&amp;lt;OS&amp;gt;.tgz&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-sec-4-3&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-4-3&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;4.3&lt;/span&gt; Run the installation file&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-4-3&quot;&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;sudo ./install.sh&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-sec-4-4&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-4-4&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;4.4&lt;/span&gt; Set environment&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-4-4&quot;&gt;
+&lt;p&gt;
+Add following code to your &lt;code&gt;~/.bashrc&lt;/code&gt; or &lt;code&gt;~/.zshrc&lt;/code&gt;
+&lt;/p&gt;
+
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;alias&lt;/span&gt; sasinit=&lt;span class=&quot;string&quot;&gt;&amp;quot;. /usr/local/SAS/xmmsas_20141104_1833/setsas.sh&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-sec-4-5&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-4-5&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;4.5&lt;/span&gt; Check&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-4-5&quot;&gt;
+&lt;p&gt;
+Run &lt;code&gt;sasinit&lt;/code&gt; in your unix prompt
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-sec-5&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-5&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; CALDB&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-5&quot;&gt;
+&lt;/div&gt;&lt;div id=&quot;outline-container-sec-5-1&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-5-1&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;5.1&lt;/span&gt; Download&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-5-1&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;Chandra
+
+&lt;p&gt;
+Visit &lt;a href=&quot;http://cxc.harvard.edu/ciao/download/caldb.html#caldb&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;here&lt;/a&gt; to download Chandra caldb
+&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Others&lt;/p&gt;
-&lt;p&gt;  Visit &lt;a href=&quot;http://heasarc.gsfc.nasa.gov/docs/heasarc/caldb/caldb_supported_missions.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://heasarc.gsfc.nasa.gov/docs/heasarc/caldb/caldb_supported_missions.html&lt;/a&gt; to download&lt;br&gt;  caldb of missions needed such as Suzaku&lt;/p&gt;
+&lt;li&gt;Others
+
+&lt;p&gt;
+Visit &lt;a href=&quot;http://heasarc.gsfc.nasa.gov/docs/heasarc/caldb/caldb_supported_missions.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;here&lt;/a&gt; to download caldb of missions needed such as &lt;code&gt;Suzaku&lt;/code&gt;
+&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;Unpack-to-the-installation-directory&quot;&gt;&lt;a href=&quot;#Unpack-to-the-installation-directory&quot; class=&quot;headerlink&quot; title=&quot;Unpack to the installation directory&quot;&gt;&lt;/a&gt;Unpack to the installation directory&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;mkdir ~/caldb
-cd ~/caldb
-tar zxvf /path/to/the/downloaded/file/caldb_4.6.9_main.tar.gz
-tar zxvf /path/to/the/downloaded/file/goodfiles_suzaku_xis_bcf_20151005.tar.gz
-tar zxvf /path/to/the/downloaded/file/goodfiles_suzaku_xis_cpf_20151005.tar.gz
-tar zxvf /path/to/the/downloaded/file/goodfiles_suzaku_xis_index_20151005.tar.gz
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;Environment-settings-1&quot;&gt;&lt;a href=&quot;#Environment-settings-1&quot; class=&quot;headerlink&quot; title=&quot;Environment settings&quot;&gt;&lt;/a&gt;Environment settings&lt;/h2&gt;&lt;p&gt;Add following code to your ~/.bashrc or ~/.zshrc&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;export CALDB=$HOME/caldb
-export CALDBCONFIG=$CALDB/software/tools/caldb.config
-export CALDBALIAS=$CALDB/software/tools/alias_config.fits
-&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&quot;CIAO&quot;&gt;&lt;a href=&quot;#CIAO&quot; class=&quot;headerlink&quot; title=&quot;CIAO&quot;&gt;&lt;/a&gt;CIAO&lt;/h1&gt;&lt;h2 id=&quot;Before-installation&quot;&gt;&lt;a href=&quot;#Before-installation&quot; class=&quot;headerlink&quot; title=&quot;Before installation&quot;&gt;&lt;/a&gt;Before installation&lt;/h2&gt;&lt;p&gt;link installed CALDB to your CIAO installation directory&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;ln -s ~/caldb ~/ciao-4.7/CALDB
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;Download-ciao-install-and-run-it&quot;&gt;&lt;a href=&quot;#Download-ciao-install-and-run-it&quot; class=&quot;headerlink&quot; title=&quot;Download ciao-install and run it&quot;&gt;&lt;/a&gt;Download ciao-install and run it&lt;/h2&gt;&lt;p&gt;Download from &lt;a href=&quot;http://cxc.harvard.edu/ciao/download/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://cxc.harvard.edu/ciao/download/&lt;/a&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;./ciao-install
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;just install ciao to your home directory : -)&lt;/p&gt;
-&lt;h2 id=&quot;Install-dependences&quot;&gt;&lt;a href=&quot;#Install-dependences&quot; class=&quot;headerlink&quot; title=&quot;Install dependences&quot;&gt;&lt;/a&gt;Install dependences&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;yaourt -S libselinux
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;and more…&lt;/p&gt;
-&lt;h2 id=&quot;Fix-a-bug&quot;&gt;&lt;a href=&quot;#Fix-a-bug&quot; class=&quot;headerlink&quot; title=&quot;Fix a bug&quot;&gt;&lt;/a&gt;Fix a bug&lt;/h2&gt;&lt;p&gt;I got something like:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sh: symbol lookup error: sh: undefined symbol: rl_signal_event_hook
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;during installation, duckduckgoaround, I figured out following solution:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;cd ~/ciao-4.7/ots/lib/
-mv libreadline.so.6 libreadline.so.6.bak
-mv libreadline.so libreadline.so.bak
-ln -s /usr/lib/libreadline.so.6.3 ~/ciao-4.7/ots/lib/libreadline.so.6
-ln -s /usr/lib/libreadline.so.6 ~/ciao-4.7/ots/lib/libreadline.so
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;Environment-setting&quot;&gt;&lt;a href=&quot;#Environment-setting&quot; class=&quot;headerlink&quot; title=&quot;Environment setting&quot;&gt;&lt;/a&gt;Environment setting&lt;/h2&gt;&lt;p&gt;Add following code to your ~/.bashrc or ~/.zshrc&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;alias ciao=&amp;quot;source ~/ciao-4.7/bin/ciao.bash&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;Check-installation-2&quot;&gt;&lt;a href=&quot;#Check-installation-2&quot; class=&quot;headerlink&quot; title=&quot;Check installation&quot;&gt;&lt;/a&gt;Check installation&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;ciao
-check_ciao_caldb
-&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&quot;ISIS&quot;&gt;&lt;a href=&quot;#ISIS&quot; class=&quot;headerlink&quot; title=&quot;ISIS&quot;&gt;&lt;/a&gt;ISIS&lt;/h1&gt;&lt;h2 id=&quot;Ensure-that-slang-has-been-installed-into-a-standard-location&quot;&gt;&lt;a href=&quot;#Ensure-that-slang-has-been-installed-into-a-standard-location&quot; class=&quot;headerlink&quot; title=&quot;Ensure that slang has been installed into a standard location&quot;&gt;&lt;/a&gt;Ensure that slang has been installed into a standard location&lt;/h2&gt;&lt;h2 id=&quot;Download-source-file-using-git&quot;&gt;&lt;a href=&quot;#Download-source-file-using-git&quot; class=&quot;headerlink&quot; title=&quot;Download source file using git&quot;&gt;&lt;/a&gt;Download source file using git&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;git clone http://space.mit.edu/cxc/isis/isis.git ~/Downloads/isis-src
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;Build-and-install&quot;&gt;&lt;a href=&quot;#Build-and-install&quot; class=&quot;headerlink&quot; title=&quot;Build and install&quot;&gt;&lt;/a&gt;Build and install&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;cd ~/Downloads/isis-src
-./configure --with-headas=$HEADAS
-make
-make check
-sudo make install
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;Check-installation-3&quot;&gt;&lt;a href=&quot;#Check-installation-3&quot; class=&quot;headerlink&quot; title=&quot;Check installation&quot;&gt;&lt;/a&gt;Check installation&lt;/h2&gt;&lt;p&gt;After isis is installed, you should be able to run it by&lt;br&gt;typing &lt;code&gt;isis&lt;/code&gt; at the unix prompt&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-sec-5-2&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-5-2&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;5.2&lt;/span&gt; Unpack&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-5-2&quot;&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;mkdir ~/caldb&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; ~/caldb&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;tar zxvf /path/to/the/downloaded/file/caldb_4.&lt;span class=&quot;number&quot;&gt;6.9&lt;/span&gt;_main.tar.gz&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;tar zxvf /path/to/the/downloaded/file/goodfiles_suzaku_xis_bcf_20151005.tar.gz&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;tar zxvf /path/to/the/downloaded/file/goodfiles_suzaku_xis_cpf_20151005.tar.gz&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;tar zxvf /path/to/the/downloaded/file/goodfiles_suzaku_xis_index_20151005.tar.gz&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-sec-5-3&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-5-3&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;5.3&lt;/span&gt; Set environment&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-5-3&quot;&gt;
+&lt;p&gt;
+Add following code to your &lt;code&gt;~/.bashrc&lt;/code&gt; or &lt;code&gt;~/.zshrc&lt;/code&gt;
+&lt;/p&gt;
+
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;export&lt;/span&gt; CALDB=&lt;span class=&quot;variable&quot;&gt;$HOME&lt;/span&gt;/caldb&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;export&lt;/span&gt; CALDBCONFIG=&lt;span class=&quot;variable&quot;&gt;$CALDB&lt;/span&gt;/software/tools/caldb.config&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;export&lt;/span&gt; CALDBALIAS=&lt;span class=&quot;variable&quot;&gt;$CALDB&lt;/span&gt;/software/tools/&lt;span class=&quot;built_in&quot;&gt;alias&lt;/span&gt;_config.fits&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-sec-6&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-6&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;6&lt;/span&gt; CIAO&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-6&quot;&gt;
+&lt;/div&gt;&lt;div id=&quot;outline-container-sec-6-1&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-6-1&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;6.1&lt;/span&gt; Before installation&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-6-1&quot;&gt;
+&lt;p&gt;
+link installed CALDB to your CIAO installation directory
+&lt;/p&gt;
+
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;ln &lt;span class=&quot;operator&quot;&gt;-s&lt;/span&gt; ~/caldb ~/ciao-&lt;span class=&quot;number&quot;&gt;4.7&lt;/span&gt;/CALDB&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-sec-6-2&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-6-2&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;6.2&lt;/span&gt; Download &lt;code&gt;ciao-install&lt;/code&gt; and run it&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-6-2&quot;&gt;
+&lt;p&gt;
+Download from &lt;a href=&quot;http://cxc.harvard.edu/ciao/download/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;here&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;./ciao-install&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+just install ciao to your home directory : -)
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-sec-6-3&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-6-3&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;6.3&lt;/span&gt; Install dependences&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-6-3&quot;&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;yaourt -S libselinux&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+and any other if required
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-sec-6-4&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-6-4&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;6.4&lt;/span&gt; Fix a bug&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-6-4&quot;&gt;
+&lt;p&gt;
+I got something like:
+&lt;/p&gt;
+
+&lt;pre class=&quot;example&quot;&gt;
+sh: symbol lookup error: sh: undefined symbol: rl_signal_event_hook
+&lt;/pre&gt;
+
+&lt;p&gt;
+duckduckgoaround, I figured out the following solution:
+&lt;/p&gt;
+
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; ~/ciao-&lt;span class=&quot;number&quot;&gt;4.7&lt;/span&gt;/ots/lib/&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;mv libreadline.so.&lt;span class=&quot;number&quot;&gt;6&lt;/span&gt; libreadline.so.&lt;span class=&quot;number&quot;&gt;6&lt;/span&gt;.bak&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;mv libreadline.so libreadline.so.bak&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;ln &lt;span class=&quot;operator&quot;&gt;-s&lt;/span&gt; /usr/lib/libreadline.so.&lt;span class=&quot;number&quot;&gt;6.3&lt;/span&gt; ~/ciao-&lt;span class=&quot;number&quot;&gt;4.7&lt;/span&gt;/ots/lib/libreadline.so.&lt;span class=&quot;number&quot;&gt;6&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;ln &lt;span class=&quot;operator&quot;&gt;-s&lt;/span&gt; /usr/lib/libreadline.so.&lt;span class=&quot;number&quot;&gt;6&lt;/span&gt; ~/ciao-&lt;span class=&quot;number&quot;&gt;4.7&lt;/span&gt;/ots/lib/libreadline.so&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-sec-6-5&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-6-5&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;6.5&lt;/span&gt; Set environment&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-6-5&quot;&gt;
+&lt;p&gt;
+Add following code to your &lt;code&gt;~/.bashrc&lt;/code&gt; or &lt;code&gt;~/.zshrc&lt;/code&gt;
+&lt;/p&gt;
+
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;alias&lt;/span&gt; ciao=&lt;span class=&quot;string&quot;&gt;&amp;quot;source ~/ciao-4.7/bin/ciao.bash&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-sec-6-6&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-6-6&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;6.6&lt;/span&gt; Check&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-6-6&quot;&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;ciao&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;check_ciao_caldb&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-sec-7&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-7&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;7&lt;/span&gt; ISIS&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-7&quot;&gt;
+&lt;/div&gt;&lt;div id=&quot;outline-container-sec-7-1&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-7-1&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;7.1&lt;/span&gt; Install dependencies&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-7-1&quot;&gt;
+&lt;p&gt;
+Make sure that &lt;code&gt;slang&lt;/code&gt; has been installed
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-sec-7-2&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-7-2&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;7.2&lt;/span&gt; Clone source by git&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-7-2&quot;&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;git &lt;span class=&quot;built_in&quot;&gt;clone&lt;/span&gt; http://space.mit.edu/cxc/isis/isis.git ~/Downloads/isis-src&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-sec-7-3&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-7-3&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;7.3&lt;/span&gt; Build and install&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-7-3&quot;&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+
+&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; ~/Downloads/isis-src&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;./configure --with-headas=&lt;span class=&quot;variable&quot;&gt;$HEADAS&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;make&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;make check&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sudo make install&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-sec-7-4&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-7-4&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;7.4&lt;/span&gt; Check installation&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-7-4&quot;&gt;
+&lt;p&gt;
+Typing &lt;code&gt;isis&lt;/code&gt; at your unix prompt
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+Last Updated 2016-05-02 Mon 15:53.&lt;br&gt;Rendered by &lt;a href=&quot;https://github.com/CodeFalling/hexo-renderer-org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo-renderer-org&lt;/a&gt; with &lt;a href=&quot;http://www.gnu.org/software/emacs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Emacs&lt;/a&gt; 24.5.1 (&lt;a href=&quot;http://orgmode.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Org&lt;/a&gt; mode 8.2.10)
 </content>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;DS9&quot;&gt;&lt;a href=&quot;#DS9&quot; class=&quot;headerlink&quot; title=&quot;DS9&quot;&gt;&lt;/a&gt;DS9&lt;/h1&gt;&lt;h2 id=&quot;Install&quot;&gt;&lt;a href=&quot;#Install&quot; class=&quot;headerlink&quot; title=&quot;Install&quot;&gt;&lt;/a&gt;Install&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;yaourt -S ds9-bin
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;Check-Installation&quot;&gt;&lt;a href=&quot;#Check-Installation&quot; class=&quot;headerlink&quot; title=&quot;Check Installation&quot;&gt;&lt;/a&gt;Check Installation&lt;/h2&gt;&lt;p&gt;Run DS9 by typing &lt;code&gt;ds9&lt;/code&gt; in your unix prompt&lt;/p&gt;
+      &lt;div id=&quot;outline-container-sec-1&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-1&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Introduction&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
+&lt;p&gt;
+This is a brief instruction of installing softwares for high-energy
+astronomy under &lt;code&gt;Archlinux&lt;/code&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-sec-2&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-2&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; DS9&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
+&lt;/div&gt;&lt;div id=&quot;outline-container-sec-2-1&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;sec-2-1&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.1&lt;/span&gt; Install&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-1&quot;&gt;
+&lt;p&gt;
+yaourt -S ds9-bin
+&lt;/p&gt;
     
     </summary>
     
-      <category term="Astronomy" scheme="https://blog.fxzheng.com/categories/Astronomy/"/>
+      <category term="astronomy" scheme="https://blog.fxzheng.com/categories/astronomy/"/>
     
     
       <category term="astronomy" scheme="https://blog.fxzheng.com/tags/astronomy/"/>
