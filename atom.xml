@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.fxzheng.com/"/>
-  <updated>2016-05-02T12:49:53.404Z</updated>
+  <updated>2016-07-18T13:25:14.258Z</updated>
   <id>https://blog.fxzheng.com/</id>
   
   <author>
@@ -14,6 +14,61 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Notes of IDL Programming</title>
+    <link href="https://blog.fxzheng.com/2016/07/18/notes-of-idl-programming/"/>
+    <id>https://blog.fxzheng.com/2016/07/18/notes-of-idl-programming/</id>
+    <published>2016-07-18T00:00:00.000Z</published>
+    <updated>2016-07-18T13:25:14.258Z</updated>
+    
+    <content type="html">
+
+
+&lt;div id=&quot;outline-container-sec-1&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-1&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Introduction&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
+&lt;p&gt;
+Notes of IDL programming language based on David W. Fanning&amp;apos;s &lt;i&gt;Coyote&amp;apos;s Guide to
+Traditional IDL Graphics&lt;/i&gt; and Liam Edward Gumley&amp;apos;s &lt;i&gt;Practical IDL Programming&lt;/i&gt;.
+&lt;/p&gt;
+
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-sec-2&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-2&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Link&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
+&lt;p&gt;
+&lt;a href=&quot;https://github.com/zhengfaxiang/Notes-of-IDL-Programming&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/zhengfaxiang/Notes-of-IDL-Programming&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+Last Updated 2016-07-18 Mon 21:25.&lt;br&gt;Rendered by &lt;a href=&quot;https://github.com/CodeFalling/hexo-renderer-org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo-renderer-org&lt;/a&gt; with &lt;a href=&quot;http://www.gnu.org/software/emacs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Emacs&lt;/a&gt; 25.1.50.1 (&lt;a href=&quot;http://orgmode.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Org&lt;/a&gt; mode 8.2.10)
+</content>
+    
+    <summary type="html">
+    
+      &lt;div id=&quot;outline-container-sec-1&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;sec-1&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Introduction&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
+&lt;p&gt;
+Notes of IDL programming language based on David W. Fanning&amp;apos;s &lt;i&gt;Coyote&amp;apos;s Guide to
+Traditional IDL Graphics&lt;/i&gt; and Liam Edward Gumley&amp;apos;s &lt;i&gt;Practical IDL Programming&lt;/i&gt;.
+&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="programming" scheme="https://blog.fxzheng.com/categories/programming/"/>
+    
+    
+      <category term="programming" scheme="https://blog.fxzheng.com/tags/programming/"/>
+    
+      <category term="idl" scheme="https://blog.fxzheng.com/tags/idl/"/>
+    
+  </entry>
   
   <entry>
     <title>Orgmode+Hexo</title>
