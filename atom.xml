@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.fxzheng.com/"/>
-  <updated>2016-07-25T00:04:52.989Z</updated>
+  <updated>2016-07-25T00:05:59.763Z</updated>
   <id>https://blog.fxzheng.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://blog.fxzheng.com/2016/07/25/emacs-configuration/"/>
     <id>https://blog.fxzheng.com/2016/07/25/emacs-configuration/</id>
     <published>2016-07-25T00:00:00.000Z</published>
-    <updated>2016-07-25T00:04:52.989Z</updated>
+    <updated>2016-07-25T00:05:59.763Z</updated>
     
     <content type="html">
 
@@ -35,7 +35,7 @@ Purcell&amp;#x2019;s Emacs configuration with use-package which makes it faster 
 
 
 &lt;div class=&quot;figure&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;file:///source/images/Screenshot_20160725_063435.png&quot; alt=&quot;Screenshot_20160725_063435.png&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;http://blog.fxzheng.com/source/images/Screenshot_20160725_063435.png&quot; alt=&quot;Screenshot_20160725_063435.png&quot;&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -52,7 +52,7 @@ Purcell&amp;#x2019;s Emacs configuration with use-package which makes it faster 
 &lt;/div&gt;
 &lt;/div&gt;
 
-Last Updated 2016-07-25 Mon 08:04.&lt;br&gt;Rendered by &lt;a href=&quot;https://github.com/CodeFalling/hexo-renderer-org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo-renderer-org&lt;/a&gt; with &lt;a href=&quot;http://www.gnu.org/software/emacs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Emacs&lt;/a&gt; 25.1.50.1 (&lt;a href=&quot;http://orgmode.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Org&lt;/a&gt; mode 8.2.10)
+Last Updated 2016-07-25 Mon 08:05.&lt;br&gt;Rendered by &lt;a href=&quot;https://github.com/CodeFalling/hexo-renderer-org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo-renderer-org&lt;/a&gt; with &lt;a href=&quot;http://www.gnu.org/software/emacs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Emacs&lt;/a&gt; 25.1.50.1 (&lt;a href=&quot;http://orgmode.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Org&lt;/a&gt; mode 8.2.10)
 </content>
     
     <summary type="html">
@@ -67,7 +67,7 @@ Purcell&amp;#x2019;s Emacs configuration with use-package which makes it faster 
 
 
 &lt;div class=&quot;figure&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;file:///source/images/Screenshot_20160725_063435.png&quot; alt=&quot;Screenshot_20160725_063435.png&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;http://blog.fxzheng.com/source/images/Screenshot_20160725_063435.png&quot; alt=&quot;Screenshot_20160725_063435.png&quot;&gt;
 &lt;/p&gt;
 &lt;/div&gt;
     
