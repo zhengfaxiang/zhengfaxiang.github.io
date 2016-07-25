@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.fxzheng.com/"/>
-  <updated>2016-07-25T00:05:59.763Z</updated>
+  <updated>2016-07-25T00:29:00.267Z</updated>
   <id>https://blog.fxzheng.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://blog.fxzheng.com/2016/07/25/emacs-configuration/"/>
     <id>https://blog.fxzheng.com/2016/07/25/emacs-configuration/</id>
     <published>2016-07-25T00:00:00.000Z</published>
-    <updated>2016-07-25T00:05:59.763Z</updated>
+    <updated>2016-07-25T00:29:00.267Z</updated>
     
     <content type="html">
 
@@ -33,11 +33,9 @@ This is my personal Emacs configuration I play with almost everyday. I rewrote
 Purcell&amp;#x2019;s Emacs configuration with use-package which makes it faster and tidier.
 &lt;/p&gt;
 
-
-&lt;div class=&quot;figure&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;http://blog.fxzheng.com/source/images/Screenshot_20160725_063435.png&quot; alt=&quot;Screenshot_20160725_063435.png&quot;&gt;
+&lt;p&gt;
+&lt;a href=&quot;https://flic.kr/p/KkX9HV&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://flic.kr/p/KkX9HV&lt;/a&gt;
 &lt;/p&gt;
-&lt;/div&gt;
 
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;/div&gt;
@@ -52,7 +50,7 @@ Purcell&amp;#x2019;s Emacs configuration with use-package which makes it faster 
 &lt;/div&gt;
 &lt;/div&gt;
 
-Last Updated 2016-07-25 Mon 08:05.&lt;br&gt;Rendered by &lt;a href=&quot;https://github.com/CodeFalling/hexo-renderer-org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo-renderer-org&lt;/a&gt; with &lt;a href=&quot;http://www.gnu.org/software/emacs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Emacs&lt;/a&gt; 25.1.50.1 (&lt;a href=&quot;http://orgmode.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Org&lt;/a&gt; mode 8.2.10)
+Last Updated 2016-07-25 Mon 08:29.&lt;br&gt;Rendered by &lt;a href=&quot;https://github.com/CodeFalling/hexo-renderer-org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo-renderer-org&lt;/a&gt; with &lt;a href=&quot;http://www.gnu.org/software/emacs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Emacs&lt;/a&gt; 25.1.50.1 (&lt;a href=&quot;http://orgmode.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Org&lt;/a&gt; mode 8.2.10)
 </content>
     
     <summary type="html">
@@ -65,11 +63,9 @@ This is my personal Emacs configuration I play with almost everyday. I rewrote
 Purcell&amp;#x2019;s Emacs configuration with use-package which makes it faster and tidier.
 &lt;/p&gt;
 
-
-&lt;div class=&quot;figure&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;http://blog.fxzheng.com/source/images/Screenshot_20160725_063435.png&quot; alt=&quot;Screenshot_20160725_063435.png&quot;&gt;
+&lt;p&gt;
+&lt;a href=&quot;https://flic.kr/p/KkX9HV&quot;&gt;https://flic.kr/p/KkX9HV&lt;/a&gt;
 &lt;/p&gt;
-&lt;/div&gt;
     
     </summary>
     
