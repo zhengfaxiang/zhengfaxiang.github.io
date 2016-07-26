@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.fxzheng.com/"/>
-  <updated>2016-07-25T00:33:43.389Z</updated>
+  <updated>2016-07-26T08:03:59.841Z</updated>
   <id>https://blog.fxzheng.com/</id>
   
   <author>
@@ -20,36 +20,36 @@
     <link href="https://blog.fxzheng.com/2016/07/25/emacs-configuration/"/>
     <id>https://blog.fxzheng.com/2016/07/25/emacs-configuration/</id>
     <published>2016-07-25T00:00:00.000Z</published>
-    <updated>2016-07-25T00:33:43.389Z</updated>
+    <updated>2016-07-26T08:03:59.841Z</updated>
     
-    <content type="html">
+    <content type="html"><![CDATA[
 
 
-&lt;div id=&quot;outline-container-sec-1&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;sec-1&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Introduction&lt;/h2&gt;
-&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
-&lt;p&gt;
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> Introduction</h2>
+<div class="outline-text-2" id="text-1">
+<p>
 This is my personal Emacs configuration I play with almost everyday. I rewrote
-Purcell&amp;#x2019;s Emacs configuration with use-package which makes it faster and tidier.
-&lt;/p&gt;
+Purcell&#x2019;s Emacs configuration with use-package which makes it faster and tidier.
+</p>
 
-&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/125857809@N04/28449114951/&quot; title=&quot;emacs-org-readme&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;https://c8.staticflickr.com/8/7736/28449114951_7b8bbe517e.jpg&quot; width=&quot;486&quot; height=&quot;500&quot; alt=&quot;emacs-org-readme&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/VhpaZ"><a href="//imgur.com/VhpaZ">Emacs configuration ...</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<a id="more"></a>
+</div>
+</div>
 
-&lt;div id=&quot;outline-container-sec-2&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;sec-2&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; URL&lt;/h2&gt;
-&lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
-&lt;p&gt;
-&lt;a href=&quot;https://github.com/zhengfaxiang/emacs.d&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/zhengfaxiang/emacs.d&lt;/a&gt;
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> URL</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+<a href="https://github.com/zhengfaxiang/emacs.d" target="_blank" rel="external">https://github.com/zhengfaxiang/emacs.d</a>
+</p>
+</div>
+</div>
 
-Last Updated 2016-07-25 Mon 08:33.&lt;br&gt;Rendered by &lt;a href=&quot;https://github.com/CodeFalling/hexo-renderer-org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo-renderer-org&lt;/a&gt; with &lt;a href=&quot;http://www.gnu.org/software/emacs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Emacs&lt;/a&gt; 25.1.50.1 (&lt;a href=&quot;http://orgmode.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Org&lt;/a&gt; mode 8.2.10)
-</content>
+Last Updated 2016-07-26 Tue 16:03.<br>Rendered by <a href="https://github.com/CodeFalling/hexo-renderer-org" target="_blank" rel="external">hexo-renderer-org</a> with <a href="http://www.gnu.org/software/emacs/" target="_blank" rel="external">Emacs</a> 25.1.50.1 (<a href="http://orgmode.org" target="_blank" rel="external">Org</a> mode 8.2.10)
+]]></content>
     
     <summary type="html">
     
@@ -61,7 +61,7 @@ This is my personal Emacs configuration I play with almost everyday. I rewrote
 Purcell&amp;#x2019;s Emacs configuration with use-package which makes it faster and tidier.
 &lt;/p&gt;
 
-&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/125857809@N04/28449114951/&quot; title=&quot;emacs-org-readme&quot;&gt;&lt;img src=&quot;https://c8.staticflickr.com/8/7736/28449114951_7b8bbe517e.jpg&quot; width=&quot;486&quot; height=&quot;500&quot; alt=&quot;emacs-org-readme&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;blockquote class=&quot;imgur-embed-pub&quot; lang=&quot;en&quot; data-id=&quot;a/VhpaZ&quot;&gt;&lt;a href=&quot;//imgur.com/VhpaZ&quot;&gt;Emacs configuration ...&lt;/a&gt;&lt;/blockquote&gt;&lt;script async src=&quot;//s.imgur.com/min/embed.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
     
     </summary>
     
@@ -81,32 +81,32 @@ Purcell&amp;#x2019;s Emacs configuration with use-package which makes it faster 
     <published>2016-07-18T00:00:00.000Z</published>
     <updated>2016-07-18T13:25:14.258Z</updated>
     
-    <content type="html">
+    <content type="html"><![CDATA[
 
 
-&lt;div id=&quot;outline-container-sec-1&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;sec-1&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Introduction&lt;/h2&gt;
-&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
-&lt;p&gt;
-Notes of IDL programming language based on David W. Fanning&amp;apos;s &lt;i&gt;Coyote&amp;apos;s Guide to
-Traditional IDL Graphics&lt;/i&gt; and Liam Edward Gumley&amp;apos;s &lt;i&gt;Practical IDL Programming&lt;/i&gt;.
-&lt;/p&gt;
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> Introduction</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Notes of IDL programming language based on David W. Fanning&apos;s <i>Coyote&apos;s Guide to
+Traditional IDL Graphics</i> and Liam Edward Gumley&apos;s <i>Practical IDL Programming</i>.
+</p>
 
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<a id="more"></a>
+</div>
+</div>
 
-&lt;div id=&quot;outline-container-sec-2&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;sec-2&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Link&lt;/h2&gt;
-&lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
-&lt;p&gt;
-&lt;a href=&quot;https://github.com/zhengfaxiang/Notes-of-IDL-Programming&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/zhengfaxiang/Notes-of-IDL-Programming&lt;/a&gt;
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> Link</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+<a href="https://github.com/zhengfaxiang/Notes-of-IDL-Programming" target="_blank" rel="external">https://github.com/zhengfaxiang/Notes-of-IDL-Programming</a>
+</p>
+</div>
+</div>
 
-Last Updated 2016-07-18 Mon 21:25.&lt;br&gt;Rendered by &lt;a href=&quot;https://github.com/CodeFalling/hexo-renderer-org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo-renderer-org&lt;/a&gt; with &lt;a href=&quot;http://www.gnu.org/software/emacs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Emacs&lt;/a&gt; 25.1.50.1 (&lt;a href=&quot;http://orgmode.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Org&lt;/a&gt; mode 8.2.10)
-</content>
+Last Updated 2016-07-18 Mon 21:25.<br>Rendered by <a href="https://github.com/CodeFalling/hexo-renderer-org" target="_blank" rel="external">hexo-renderer-org</a> with <a href="http://www.gnu.org/software/emacs/" target="_blank" rel="external">Emacs</a> 25.1.50.1 (<a href="http://orgmode.org" target="_blank" rel="external">Org</a> mode 8.2.10)
+]]></content>
     
     <summary type="html">
     
@@ -136,81 +136,81 @@ Traditional IDL Graphics&lt;/i&gt; and Liam Edward Gumley&amp;apos;s &lt;i&gt;Pr
     <published>2016-05-01T16:00:00.000Z</published>
     <updated>2016-05-02T12:49:53.404Z</updated>
     
-    <content type="html">
+    <content type="html"><![CDATA[
 
 
-&lt;div id=&quot;outline-container-sec-1&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;sec-1&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; How to&lt;/h2&gt;
-&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
-&lt;p&gt;
-Refer to &lt;a href=&quot;https://github.com/CodeFalling/hexo-renderer-org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;here&lt;/a&gt;
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> How to</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Refer to <a href="https://github.com/CodeFalling/hexo-renderer-org" target="_blank" rel="external">here</a>
+</p>
+</div>
+</div>
 
-&lt;div id=&quot;outline-container-sec-2&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;sec-2&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Test&lt;/h2&gt;
-&lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
-&lt;/div&gt;&lt;div id=&quot;outline-container-sec-2-1&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-2-1&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.1&lt;/span&gt; Code block&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-1&quot;&gt;
-&lt;div class=&quot;org-src-container&quot;&gt;
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> Test</h2>
+<div class="outline-text-2" id="text-2">
+</div><div id="outline-container-sec-2-1" class="outline-3">
+<h3 id="sec-2-1"><span class="section-number-3">2.1</span> Code block</h3>
+<div class="outline-text-3" id="text-2-1">
+<div class="org-src-container">
 
-&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; click&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;class&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;Config&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(object)&lt;/span&gt;:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(self)&lt;/span&gt;:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	self.verbose = &lt;span class=&quot;keyword&quot;&gt;False&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/div&gt;
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> click</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Config</span><span class="params">(object)</span>:</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self)</span>:</span></span><br><span class="line">	self.verbose = <span class="keyword">False</span></span><br></pre></td></tr></table></figure>
+</div>
 
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<a id="more"></a>
+</div>
+</div>
 
-&lt;div id=&quot;outline-container-sec-2-2&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-2-2&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.2&lt;/span&gt; LaTeX&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-2&quot;&gt;
-&lt;p&gt;
+<div id="outline-container-sec-2-2" class="outline-3">
+<h3 id="sec-2-2"><span class="section-number-3">2.2</span> LaTeX</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
 $$\sum{}_{i=1}^{n}\frac{1}{n^2}$$
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;outline-container-sec-2-3&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-2-3&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.3&lt;/span&gt; Table&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-3&quot;&gt;
-&lt;table border=&quot;2&quot; cellspacing=&quot;0&quot; cellpadding=&quot;6&quot; rules=&quot;groups&quot; frame=&quot;hsides&quot;&gt;
-&lt;caption class=&quot;t-above&quot;&gt;&lt;span class=&quot;table-number&quot;&gt;Table 1:&lt;/span&gt; Table test&lt;/caption&gt;
+</p>
+</div>
+</div>
+<div id="outline-container-sec-2-3" class="outline-3">
+<h3 id="sec-2-3"><span class="section-number-3">2.3</span> Table</h3>
+<div class="outline-text-3" id="text-2-3">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption class="t-above"><span class="table-number">Table 1:</span> Table test</caption>
 
-&lt;colgroup&gt;
-&lt;col class=&quot;left&quot;&gt;
+<colgroup>
+<col class="left">
 
-&lt;col class=&quot;right&quot;&gt;
-&lt;/colgroup&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th scope=&quot;col&quot; class=&quot;left&quot;&gt;Name&lt;/th&gt;
-&lt;th scope=&quot;col&quot; class=&quot;right&quot;&gt;Number&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td class=&quot;left&quot;&gt;apple&lt;/td&gt;
-&lt;td class=&quot;right&quot;&gt;2&lt;/td&gt;
-&lt;/tr&gt;
+<col class="right">
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Name</th>
+<th scope="col" class="right">Number</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">apple</td>
+<td class="right">2</td>
+</tr>
 
-&lt;tr&gt;
-&lt;td class=&quot;left&quot;&gt;orange&lt;/td&gt;
-&lt;td class=&quot;right&quot;&gt;5&lt;/td&gt;
-&lt;/tr&gt;
+<tr>
+<td class="left">orange</td>
+<td class="right">5</td>
+</tr>
 
-&lt;tr&gt;
-&lt;td class=&quot;left&quot;&gt;banana&lt;/td&gt;
-&lt;td class=&quot;right&quot;&gt;3&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<tr>
+<td class="left">banana</td>
+<td class="right">3</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
 
-Last Updated 2016-05-02 Mon 20:49.&lt;br&gt;Rendered by &lt;a href=&quot;https://github.com/CodeFalling/hexo-renderer-org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo-renderer-org&lt;/a&gt; with &lt;a href=&quot;http://www.gnu.org/software/emacs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Emacs&lt;/a&gt; 24.5.1 (&lt;a href=&quot;http://orgmode.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Org&lt;/a&gt; mode 8.2.10)
-</content>
+Last Updated 2016-05-02 Mon 20:49.<br>Rendered by <a href="https://github.com/CodeFalling/hexo-renderer-org" target="_blank" rel="external">hexo-renderer-org</a> with <a href="http://www.gnu.org/software/emacs/" target="_blank" rel="external">Emacs</a> 24.5.1 (<a href="http://orgmode.org" target="_blank" rel="external">Org</a> mode 8.2.10)
+]]></content>
     
     <summary type="html">
     
@@ -254,345 +254,345 @@ Refer to &lt;a href=&quot;https://github.com/CodeFalling/hexo-renderer-org&quot;
     <published>2015-10-18T00:00:00.000Z</published>
     <updated>2016-05-02T11:23:16.112Z</updated>
     
-    <content type="html">
+    <content type="html"><![CDATA[
 
 
-&lt;div id=&quot;outline-container-sec-1&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;sec-1&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Introduction&lt;/h2&gt;
-&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
-&lt;p&gt;
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> Introduction</h2>
+<div class="outline-text-2" id="text-1">
+<p>
 This is a brief instruction of installing softwares for high-energy
-astronomy under &lt;code&gt;Archlinux&lt;/code&gt;
-&lt;/p&gt;
+astronomy under <code>Archlinux</code>
+</p>
 
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<a id="more"></a>
+</div>
+</div>
 
-&lt;div id=&quot;outline-container-sec-2&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;sec-2&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; DS9&lt;/h2&gt;
-&lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
-&lt;/div&gt;&lt;div id=&quot;outline-container-sec-2-1&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-2-1&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.1&lt;/span&gt; Install&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-1&quot;&gt;
-&lt;div class=&quot;org-src-container&quot;&gt;
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> DS9</h2>
+<div class="outline-text-2" id="text-2">
+</div><div id="outline-container-sec-2-1" class="outline-3">
+<h3 id="sec-2-1"><span class="section-number-3">2.1</span> Install</h3>
+<div class="outline-text-3" id="text-2-1">
+<div class="org-src-container">
 
-&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;yaourt -S ds9-bin&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">yaourt -S ds9-bin</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
+</div>
 
-&lt;div id=&quot;outline-container-sec-3&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;sec-3&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; HEASOFT&lt;/h2&gt;
-&lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
-&lt;/div&gt;&lt;div id=&quot;outline-container-sec-3-1&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-3-1&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;3.1&lt;/span&gt; Download&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-3-1&quot;&gt;
-&lt;p&gt;
-Visit &lt;a href=&quot;http://heasarc.gsfc.nasa.gov/docs/software/lheasoft/download.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;here&lt;/a&gt; to download the source code
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> HEASOFT</h2>
+<div class="outline-text-2" id="text-3">
+</div><div id="outline-container-sec-3-1" class="outline-3">
+<h3 id="sec-3-1"><span class="section-number-3">3.1</span> Download</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+Visit <a href="http://heasarc.gsfc.nasa.gov/docs/software/lheasoft/download.html" target="_blank" rel="external">here</a> to download the source code
+</p>
+</div>
+</div>
 
-&lt;div id=&quot;outline-container-sec-3-2&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-3-2&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;3.2&lt;/span&gt; Unpack to the installation directory&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-3-2&quot;&gt;
-&lt;div class=&quot;org-src-container&quot;&gt;
+<div id="outline-container-sec-3-2" class="outline-3">
+<h3 id="sec-3-2"><span class="section-number-3">3.2</span> Unpack to the installation directory</h3>
+<div class="outline-text-3" id="text-3-2">
+<div class="org-src-container">
 
-&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; /usr/&lt;span class=&quot;built_in&quot;&gt;local&lt;/span&gt;/&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sudo tar zxvf /path/to/the/downloaded/file/heasoft-&lt;span class=&quot;number&quot;&gt;6.17&lt;/span&gt;src.tar.gz&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> /usr/<span class="built_in">local</span>/</span><br><span class="line">sudo tar zxvf /path/to/the/downloaded/file/heasoft-<span class="number">6.17</span>src.tar.gz</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
 
-&lt;div id=&quot;outline-container-sec-3-3&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-3-3&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;3.3&lt;/span&gt; Install&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-3-3&quot;&gt;
-&lt;div class=&quot;org-src-container&quot;&gt;
+<div id="outline-container-sec-3-3" class="outline-3">
+<h3 id="sec-3-3"><span class="section-number-3">3.3</span> Install</h3>
+<div class="outline-text-3" id="text-3-3">
+<div class="org-src-container">
 
-&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; heasoft-&lt;span class=&quot;number&quot;&gt;6.17&lt;/span&gt;/BUILD_DIR&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sudo ./configure&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sudo make&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sudo make install&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/div&gt;
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> heasoft-<span class="number">6.17</span>/BUILD_DIR</span><br><span class="line">sudo ./configure</span><br><span class="line">sudo make</span><br><span class="line">sudo make install</span><br></pre></td></tr></table></figure>
+</div>
 
-&lt;p&gt;
+<p>
 this may take some time, so be patient : -) or you can have a coffee ~
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+</p>
+</div>
+</div>
 
-&lt;div id=&quot;outline-container-sec-3-4&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-3-4&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;3.4&lt;/span&gt; Set environment&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-3-4&quot;&gt;
-&lt;p&gt;
-Add following code to your &lt;code&gt;~/.bashrc&lt;/code&gt; or &lt;code&gt;~/.zshrc&lt;/code&gt;
-&lt;/p&gt;
+<div id="outline-container-sec-3-4" class="outline-3">
+<h3 id="sec-3-4"><span class="section-number-3">3.4</span> Set environment</h3>
+<div class="outline-text-3" id="text-3-4">
+<p>
+Add following code to your <code>~/.bashrc</code> or <code>~/.zshrc</code>
+</p>
 
-&lt;div class=&quot;org-src-container&quot;&gt;
+<div class="org-src-container">
 
-&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;export&lt;/span&gt; HEADAS=/usr/&lt;span class=&quot;built_in&quot;&gt;local&lt;/span&gt;/heasoft-&lt;span class=&quot;number&quot;&gt;6.17&lt;/span&gt;/(PLATFORM)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;alias&lt;/span&gt; heainit=&lt;span class=&quot;string&quot;&gt;&amp;quot;. &lt;span class=&quot;variable&quot;&gt;$HEADAS&lt;/span&gt;/headas-init.sh&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/div&gt;
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">export</span> HEADAS=/usr/<span class="built_in">local</span>/heasoft-<span class="number">6.17</span>/(PLATFORM)</span><br><span class="line"><span class="built_in">alias</span> heainit=<span class="string">&quot;. <span class="variable">$HEADAS</span>/headas-init.sh&quot;</span></span><br></pre></td></tr></table></figure>
+</div>
 
-&lt;p&gt;
+<p>
 where (PLATFORM) is a placeholder for the platform-specific string 
-denoting your machine&amp;apos;s architecture, for example: &lt;code&gt;x86_64-unknown-linux-gnu-libc2. 22&lt;/code&gt;
+denoting your machine&apos;s architecture, for example: <code>x86_64-unknown-linux-gnu-libc2. 22</code>
 in my Archlinux
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+</p>
+</div>
+</div>
 
-&lt;div id=&quot;outline-container-sec-3-5&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-3-5&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;3.5&lt;/span&gt; Check&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-3-5&quot;&gt;
-&lt;p&gt;
-Run &lt;code&gt;heainit&lt;/code&gt; in your unix prompt
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<div id="outline-container-sec-3-5" class="outline-3">
+<h3 id="sec-3-5"><span class="section-number-3">3.5</span> Check</h3>
+<div class="outline-text-3" id="text-3-5">
+<p>
+Run <code>heainit</code> in your unix prompt
+</p>
+</div>
+</div>
+</div>
 
-&lt;div id=&quot;outline-container-sec-4&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;sec-4&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; XMM SAS&lt;/h2&gt;
-&lt;div class=&quot;outline-text-2&quot; id=&quot;text-4&quot;&gt;
-&lt;/div&gt;&lt;div id=&quot;outline-container-sec-4-1&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-4-1&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;4.1&lt;/span&gt; Download&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-4-1&quot;&gt;
-&lt;p&gt;
-Download from &lt;a href=&quot;http://xmm.esac.esa.int/sas/current/downloadandinstall.shtml&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;here&lt;/a&gt;
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<div id="outline-container-sec-4" class="outline-2">
+<h2 id="sec-4"><span class="section-number-2">4</span> XMM SAS</h2>
+<div class="outline-text-2" id="text-4">
+</div><div id="outline-container-sec-4-1" class="outline-3">
+<h3 id="sec-4-1"><span class="section-number-3">4.1</span> Download</h3>
+<div class="outline-text-3" id="text-4-1">
+<p>
+Download from <a href="http://xmm.esac.esa.int/sas/current/downloadandinstall.shtml" target="_blank" rel="external">here</a>
+</p>
+</div>
+</div>
 
-&lt;div id=&quot;outline-container-sec-4-2&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-4-2&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;4.2&lt;/span&gt; Unpack&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-4-2&quot;&gt;
-&lt;div class=&quot;org-src-container&quot;&gt;
+<div id="outline-container-sec-4-2" class="outline-3">
+<h3 id="sec-4-2"><span class="section-number-3">4.2</span> Unpack</h3>
+<div class="outline-text-3" id="text-4-2">
+<div class="org-src-container">
 
-&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;sudo mkdir /usr/&lt;span class=&quot;built_in&quot;&gt;local&lt;/span&gt;/SAS&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; /usr/&lt;span class=&quot;built_in&quot;&gt;local&lt;/span&gt;/SAS&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sudo tar zxf /path/to/the/downloaded/file/sas_14.&lt;span class=&quot;number&quot;&gt;0.0&lt;/span&gt;-&amp;lt;OS&amp;gt;.tgz&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">sudo mkdir /usr/<span class="built_in">local</span>/SAS</span><br><span class="line"><span class="built_in">cd</span> /usr/<span class="built_in">local</span>/SAS</span><br><span class="line">sudo tar zxf /path/to/the/downloaded/file/sas_14.<span class="number">0.0</span>-&lt;OS&gt;.tgz</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
 
-&lt;div id=&quot;outline-container-sec-4-3&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-4-3&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;4.3&lt;/span&gt; Run the installation file&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-4-3&quot;&gt;
-&lt;div class=&quot;org-src-container&quot;&gt;
+<div id="outline-container-sec-4-3" class="outline-3">
+<h3 id="sec-4-3"><span class="section-number-3">4.3</span> Run the installation file</h3>
+<div class="outline-text-3" id="text-4-3">
+<div class="org-src-container">
 
-&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;sudo ./install.sh&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">sudo ./install.sh</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
 
-&lt;div id=&quot;outline-container-sec-4-4&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-4-4&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;4.4&lt;/span&gt; Set environment&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-4-4&quot;&gt;
-&lt;p&gt;
-Add following code to your &lt;code&gt;~/.bashrc&lt;/code&gt; or &lt;code&gt;~/.zshrc&lt;/code&gt;
-&lt;/p&gt;
+<div id="outline-container-sec-4-4" class="outline-3">
+<h3 id="sec-4-4"><span class="section-number-3">4.4</span> Set environment</h3>
+<div class="outline-text-3" id="text-4-4">
+<p>
+Add following code to your <code>~/.bashrc</code> or <code>~/.zshrc</code>
+</p>
 
-&lt;div class=&quot;org-src-container&quot;&gt;
+<div class="org-src-container">
 
-&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;alias&lt;/span&gt; sasinit=&lt;span class=&quot;string&quot;&gt;&amp;quot;. /usr/local/SAS/xmmsas_20141104_1833/setsas.sh&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">alias</span> sasinit=<span class="string">&quot;. /usr/local/SAS/xmmsas_20141104_1833/setsas.sh&quot;</span></span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
 
-&lt;div id=&quot;outline-container-sec-4-5&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-4-5&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;4.5&lt;/span&gt; Check&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-4-5&quot;&gt;
-&lt;p&gt;
-Run &lt;code&gt;sasinit&lt;/code&gt; in your unix prompt
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<div id="outline-container-sec-4-5" class="outline-3">
+<h3 id="sec-4-5"><span class="section-number-3">4.5</span> Check</h3>
+<div class="outline-text-3" id="text-4-5">
+<p>
+Run <code>sasinit</code> in your unix prompt
+</p>
+</div>
+</div>
+</div>
 
-&lt;div id=&quot;outline-container-sec-5&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;sec-5&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; CALDB&lt;/h2&gt;
-&lt;div class=&quot;outline-text-2&quot; id=&quot;text-5&quot;&gt;
-&lt;/div&gt;&lt;div id=&quot;outline-container-sec-5-1&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-5-1&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;5.1&lt;/span&gt; Download&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-5-1&quot;&gt;
-&lt;ul class=&quot;org-ul&quot;&gt;
-&lt;li&gt;Chandra
+<div id="outline-container-sec-5" class="outline-2">
+<h2 id="sec-5"><span class="section-number-2">5</span> CALDB</h2>
+<div class="outline-text-2" id="text-5">
+</div><div id="outline-container-sec-5-1" class="outline-3">
+<h3 id="sec-5-1"><span class="section-number-3">5.1</span> Download</h3>
+<div class="outline-text-3" id="text-5-1">
+<ul class="org-ul">
+<li>Chandra
 
-&lt;p&gt;
-Visit &lt;a href=&quot;http://cxc.harvard.edu/ciao/download/caldb.html#caldb&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;here&lt;/a&gt; to download Chandra caldb
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;Others
+<p>
+Visit <a href="http://cxc.harvard.edu/ciao/download/caldb.html#caldb" target="_blank" rel="external">here</a> to download Chandra caldb
+</p>
+</li>
+<li>Others
 
-&lt;p&gt;
-Visit &lt;a href=&quot;http://heasarc.gsfc.nasa.gov/docs/heasarc/caldb/caldb_supported_missions.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;here&lt;/a&gt; to download caldb of missions needed such as &lt;code&gt;Suzaku&lt;/code&gt;
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<p>
+Visit <a href="http://heasarc.gsfc.nasa.gov/docs/heasarc/caldb/caldb_supported_missions.html" target="_blank" rel="external">here</a> to download caldb of missions needed such as <code>Suzaku</code>
+</p>
+</li>
+</ul>
+</div>
+</div>
 
-&lt;div id=&quot;outline-container-sec-5-2&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-5-2&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;5.2&lt;/span&gt; Unpack&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-5-2&quot;&gt;
-&lt;div class=&quot;org-src-container&quot;&gt;
+<div id="outline-container-sec-5-2" class="outline-3">
+<h3 id="sec-5-2"><span class="section-number-3">5.2</span> Unpack</h3>
+<div class="outline-text-3" id="text-5-2">
+<div class="org-src-container">
 
-&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;mkdir ~/caldb&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; ~/caldb&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;tar zxvf /path/to/the/downloaded/file/caldb_4.&lt;span class=&quot;number&quot;&gt;6.9&lt;/span&gt;_main.tar.gz&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;tar zxvf /path/to/the/downloaded/file/goodfiles_suzaku_xis_bcf_20151005.tar.gz&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;tar zxvf /path/to/the/downloaded/file/goodfiles_suzaku_xis_cpf_20151005.tar.gz&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;tar zxvf /path/to/the/downloaded/file/goodfiles_suzaku_xis_index_20151005.tar.gz&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">mkdir ~/caldb</span><br><span class="line"><span class="built_in">cd</span> ~/caldb</span><br><span class="line">tar zxvf /path/to/the/downloaded/file/caldb_4.<span class="number">6.9</span>_main.tar.gz</span><br><span class="line">tar zxvf /path/to/the/downloaded/file/goodfiles_suzaku_xis_bcf_20151005.tar.gz</span><br><span class="line">tar zxvf /path/to/the/downloaded/file/goodfiles_suzaku_xis_cpf_20151005.tar.gz</span><br><span class="line">tar zxvf /path/to/the/downloaded/file/goodfiles_suzaku_xis_index_20151005.tar.gz</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
 
-&lt;div id=&quot;outline-container-sec-5-3&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-5-3&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;5.3&lt;/span&gt; Set environment&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-5-3&quot;&gt;
-&lt;p&gt;
-Add following code to your &lt;code&gt;~/.bashrc&lt;/code&gt; or &lt;code&gt;~/.zshrc&lt;/code&gt;
-&lt;/p&gt;
+<div id="outline-container-sec-5-3" class="outline-3">
+<h3 id="sec-5-3"><span class="section-number-3">5.3</span> Set environment</h3>
+<div class="outline-text-3" id="text-5-3">
+<p>
+Add following code to your <code>~/.bashrc</code> or <code>~/.zshrc</code>
+</p>
 
-&lt;div class=&quot;org-src-container&quot;&gt;
+<div class="org-src-container">
 
-&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;export&lt;/span&gt; CALDB=&lt;span class=&quot;variable&quot;&gt;$HOME&lt;/span&gt;/caldb&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;export&lt;/span&gt; CALDBCONFIG=&lt;span class=&quot;variable&quot;&gt;$CALDB&lt;/span&gt;/software/tools/caldb.config&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;export&lt;/span&gt; CALDBALIAS=&lt;span class=&quot;variable&quot;&gt;$CALDB&lt;/span&gt;/software/tools/&lt;span class=&quot;built_in&quot;&gt;alias&lt;/span&gt;_config.fits&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">export</span> CALDB=<span class="variable">$HOME</span>/caldb</span><br><span class="line"><span class="built_in">export</span> CALDBCONFIG=<span class="variable">$CALDB</span>/software/tools/caldb.config</span><br><span class="line"><span class="built_in">export</span> CALDBALIAS=<span class="variable">$CALDB</span>/software/tools/<span class="built_in">alias</span>_config.fits</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
+</div>
 
-&lt;div id=&quot;outline-container-sec-6&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;sec-6&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;6&lt;/span&gt; CIAO&lt;/h2&gt;
-&lt;div class=&quot;outline-text-2&quot; id=&quot;text-6&quot;&gt;
-&lt;/div&gt;&lt;div id=&quot;outline-container-sec-6-1&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-6-1&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;6.1&lt;/span&gt; Before installation&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-6-1&quot;&gt;
-&lt;p&gt;
+<div id="outline-container-sec-6" class="outline-2">
+<h2 id="sec-6"><span class="section-number-2">6</span> CIAO</h2>
+<div class="outline-text-2" id="text-6">
+</div><div id="outline-container-sec-6-1" class="outline-3">
+<h3 id="sec-6-1"><span class="section-number-3">6.1</span> Before installation</h3>
+<div class="outline-text-3" id="text-6-1">
+<p>
 link installed CALDB to your CIAO installation directory
-&lt;/p&gt;
+</p>
 
-&lt;div class=&quot;org-src-container&quot;&gt;
+<div class="org-src-container">
 
-&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;ln &lt;span class=&quot;operator&quot;&gt;-s&lt;/span&gt; ~/caldb ~/ciao-&lt;span class=&quot;number&quot;&gt;4.7&lt;/span&gt;/CALDB&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">ln <span class="operator">-s</span> ~/caldb ~/ciao-<span class="number">4.7</span>/CALDB</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
 
-&lt;div id=&quot;outline-container-sec-6-2&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-6-2&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;6.2&lt;/span&gt; Download &lt;code&gt;ciao-install&lt;/code&gt; and run it&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-6-2&quot;&gt;
-&lt;p&gt;
-Download from &lt;a href=&quot;http://cxc.harvard.edu/ciao/download/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;here&lt;/a&gt;
-&lt;/p&gt;
+<div id="outline-container-sec-6-2" class="outline-3">
+<h3 id="sec-6-2"><span class="section-number-3">6.2</span> Download <code>ciao-install</code> and run it</h3>
+<div class="outline-text-3" id="text-6-2">
+<p>
+Download from <a href="http://cxc.harvard.edu/ciao/download/" target="_blank" rel="external">here</a>
+</p>
 
-&lt;div class=&quot;org-src-container&quot;&gt;
+<div class="org-src-container">
 
-&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;./ciao-install&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/div&gt;
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">./ciao-install</span><br></pre></td></tr></table></figure>
+</div>
 
-&lt;p&gt;
+<p>
 just install ciao to your home directory : -)
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+</p>
+</div>
+</div>
 
-&lt;div id=&quot;outline-container-sec-6-3&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-6-3&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;6.3&lt;/span&gt; Install dependences&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-6-3&quot;&gt;
-&lt;div class=&quot;org-src-container&quot;&gt;
+<div id="outline-container-sec-6-3" class="outline-3">
+<h3 id="sec-6-3"><span class="section-number-3">6.3</span> Install dependences</h3>
+<div class="outline-text-3" id="text-6-3">
+<div class="org-src-container">
 
-&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;yaourt -S libselinux&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/div&gt;
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">yaourt -S libselinux</span><br></pre></td></tr></table></figure>
+</div>
 
-&lt;p&gt;
+<p>
 and any other if required
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+</p>
+</div>
+</div>
 
-&lt;div id=&quot;outline-container-sec-6-4&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-6-4&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;6.4&lt;/span&gt; Fix a bug&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-6-4&quot;&gt;
-&lt;p&gt;
+<div id="outline-container-sec-6-4" class="outline-3">
+<h3 id="sec-6-4"><span class="section-number-3">6.4</span> Fix a bug</h3>
+<div class="outline-text-3" id="text-6-4">
+<p>
 I got something like:
-&lt;/p&gt;
+</p>
 
-&lt;pre class=&quot;example&quot;&gt;
+<pre class="example">
 sh: symbol lookup error: sh: undefined symbol: rl_signal_event_hook
-&lt;/pre&gt;
+</pre>
 
-&lt;p&gt;
+<p>
 duckduckgoaround, I figured out the following solution:
-&lt;/p&gt;
+</p>
 
-&lt;div class=&quot;org-src-container&quot;&gt;
+<div class="org-src-container">
 
-&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; ~/ciao-&lt;span class=&quot;number&quot;&gt;4.7&lt;/span&gt;/ots/lib/&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;mv libreadline.so.&lt;span class=&quot;number&quot;&gt;6&lt;/span&gt; libreadline.so.&lt;span class=&quot;number&quot;&gt;6&lt;/span&gt;.bak&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;mv libreadline.so libreadline.so.bak&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;ln &lt;span class=&quot;operator&quot;&gt;-s&lt;/span&gt; /usr/lib/libreadline.so.&lt;span class=&quot;number&quot;&gt;6.3&lt;/span&gt; ~/ciao-&lt;span class=&quot;number&quot;&gt;4.7&lt;/span&gt;/ots/lib/libreadline.so.&lt;span class=&quot;number&quot;&gt;6&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;ln &lt;span class=&quot;operator&quot;&gt;-s&lt;/span&gt; /usr/lib/libreadline.so.&lt;span class=&quot;number&quot;&gt;6&lt;/span&gt; ~/ciao-&lt;span class=&quot;number&quot;&gt;4.7&lt;/span&gt;/ots/lib/libreadline.so&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~/ciao-<span class="number">4.7</span>/ots/lib/</span><br><span class="line">mv libreadline.so.<span class="number">6</span> libreadline.so.<span class="number">6</span>.bak</span><br><span class="line">mv libreadline.so libreadline.so.bak</span><br><span class="line">ln <span class="operator">-s</span> /usr/lib/libreadline.so.<span class="number">6.3</span> ~/ciao-<span class="number">4.7</span>/ots/lib/libreadline.so.<span class="number">6</span></span><br><span class="line">ln <span class="operator">-s</span> /usr/lib/libreadline.so.<span class="number">6</span> ~/ciao-<span class="number">4.7</span>/ots/lib/libreadline.so</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
 
-&lt;div id=&quot;outline-container-sec-6-5&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-6-5&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;6.5&lt;/span&gt; Set environment&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-6-5&quot;&gt;
-&lt;p&gt;
-Add following code to your &lt;code&gt;~/.bashrc&lt;/code&gt; or &lt;code&gt;~/.zshrc&lt;/code&gt;
-&lt;/p&gt;
+<div id="outline-container-sec-6-5" class="outline-3">
+<h3 id="sec-6-5"><span class="section-number-3">6.5</span> Set environment</h3>
+<div class="outline-text-3" id="text-6-5">
+<p>
+Add following code to your <code>~/.bashrc</code> or <code>~/.zshrc</code>
+</p>
 
-&lt;div class=&quot;org-src-container&quot;&gt;
+<div class="org-src-container">
 
-&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;alias&lt;/span&gt; ciao=&lt;span class=&quot;string&quot;&gt;&amp;quot;source ~/ciao-4.7/bin/ciao.bash&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">alias</span> ciao=<span class="string">&quot;source ~/ciao-4.7/bin/ciao.bash&quot;</span></span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
 
-&lt;div id=&quot;outline-container-sec-6-6&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-6-6&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;6.6&lt;/span&gt; Check&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-6-6&quot;&gt;
-&lt;div class=&quot;org-src-container&quot;&gt;
+<div id="outline-container-sec-6-6" class="outline-3">
+<h3 id="sec-6-6"><span class="section-number-3">6.6</span> Check</h3>
+<div class="outline-text-3" id="text-6-6">
+<div class="org-src-container">
 
-&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;ciao&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;check_ciao_caldb&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">ciao</span><br><span class="line">check_ciao_caldb</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
+</div>
 
-&lt;div id=&quot;outline-container-sec-7&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;sec-7&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;7&lt;/span&gt; ISIS&lt;/h2&gt;
-&lt;div class=&quot;outline-text-2&quot; id=&quot;text-7&quot;&gt;
-&lt;/div&gt;&lt;div id=&quot;outline-container-sec-7-1&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-7-1&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;7.1&lt;/span&gt; Install dependencies&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-7-1&quot;&gt;
-&lt;p&gt;
-Make sure that &lt;code&gt;slang&lt;/code&gt; has been installed
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<div id="outline-container-sec-7" class="outline-2">
+<h2 id="sec-7"><span class="section-number-2">7</span> ISIS</h2>
+<div class="outline-text-2" id="text-7">
+</div><div id="outline-container-sec-7-1" class="outline-3">
+<h3 id="sec-7-1"><span class="section-number-3">7.1</span> Install dependencies</h3>
+<div class="outline-text-3" id="text-7-1">
+<p>
+Make sure that <code>slang</code> has been installed
+</p>
+</div>
+</div>
 
-&lt;div id=&quot;outline-container-sec-7-2&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-7-2&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;7.2&lt;/span&gt; Clone source by git&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-7-2&quot;&gt;
-&lt;div class=&quot;org-src-container&quot;&gt;
+<div id="outline-container-sec-7-2" class="outline-3">
+<h3 id="sec-7-2"><span class="section-number-3">7.2</span> Clone source by git</h3>
+<div class="outline-text-3" id="text-7-2">
+<div class="org-src-container">
 
-&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;git &lt;span class=&quot;built_in&quot;&gt;clone&lt;/span&gt; http://space.mit.edu/cxc/isis/isis.git ~/Downloads/isis-src&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> http://space.mit.edu/cxc/isis/isis.git ~/Downloads/isis-src</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
 
-&lt;div id=&quot;outline-container-sec-7-3&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-7-3&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;7.3&lt;/span&gt; Build and install&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-7-3&quot;&gt;
-&lt;div class=&quot;org-src-container&quot;&gt;
+<div id="outline-container-sec-7-3" class="outline-3">
+<h3 id="sec-7-3"><span class="section-number-3">7.3</span> Build and install</h3>
+<div class="outline-text-3" id="text-7-3">
+<div class="org-src-container">
 
-&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; ~/Downloads/isis-src&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;./configure --with-headas=&lt;span class=&quot;variable&quot;&gt;$HEADAS&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;make&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;make check&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sudo make install&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~/Downloads/isis-src</span><br><span class="line">./configure --with-headas=<span class="variable">$HEADAS</span></span><br><span class="line">make</span><br><span class="line">make check</span><br><span class="line">sudo make install</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
 
-&lt;div id=&quot;outline-container-sec-7-4&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;sec-7-4&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;7.4&lt;/span&gt; Check installation&lt;/h3&gt;
-&lt;div class=&quot;outline-text-3&quot; id=&quot;text-7-4&quot;&gt;
-&lt;p&gt;
-Typing &lt;code&gt;isis&lt;/code&gt; at your unix prompt
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<div id="outline-container-sec-7-4" class="outline-3">
+<h3 id="sec-7-4"><span class="section-number-3">7.4</span> Check installation</h3>
+<div class="outline-text-3" id="text-7-4">
+<p>
+Typing <code>isis</code> at your unix prompt
+</p>
+</div>
+</div>
+</div>
 
-Last Updated 2016-05-02 Mon 19:21.&lt;br&gt;Rendered by &lt;a href=&quot;https://github.com/CodeFalling/hexo-renderer-org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo-renderer-org&lt;/a&gt; with &lt;a href=&quot;http://www.gnu.org/software/emacs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Emacs&lt;/a&gt; 24.5.1 (&lt;a href=&quot;http://orgmode.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Org&lt;/a&gt; mode 8.2.10)
-</content>
+Last Updated 2016-05-02 Mon 19:21.<br>Rendered by <a href="https://github.com/CodeFalling/hexo-renderer-org" target="_blank" rel="external">hexo-renderer-org</a> with <a href="http://www.gnu.org/software/emacs/" target="_blank" rel="external">Emacs</a> 24.5.1 (<a href="http://orgmode.org" target="_blank" rel="external">Org</a> mode 8.2.10)
+]]></content>
     
     <summary type="html">
     
