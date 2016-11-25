@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.fxzheng.com/2015/10/18/high-energy-soft-install/</loc>
+    
+    <lastmod>2016-11-25T16:05:43.317Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.fxzheng.com/2016/07/25/emacs-configuration/</loc>
     
     <lastmod>2016-07-26T08:03:59.841Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>https://blog.fxzheng.com/2016/05/02/test-org/</loc>
     
     <lastmod>2016-05-02T12:49:53.404Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.fxzheng.com/2015/10/18/high-energy-soft-install/</loc>
-    
-    <lastmod>2016-05-02T11:23:16.112Z</lastmod>
     
   </url>
   
