@@ -101,7 +101,7 @@ astronomy on my Archlinux">
 
 This is a brief instruction of installing softwares for high-energy
 astronomy on my Archlinux">
-<meta property="og:updated_time" content="2016-11-25T16:05:43.317Z">
+<meta property="og:updated_time" content="2016-11-25T16:15:52.494Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Install Softwares for High-energy Astronomy">
 <meta name="twitter:description" content="1 Introduction
@@ -620,30 +620,8 @@ and any other if required
 </div>
 
 <div id="outline-container-sec-5-4" class="outline-3">
-<h3 id="sec-5-4"><span class="section-number-3">5.4</span> Fix a bug</h3>
+<h3 id="sec-5-4"><span class="section-number-3">5.4</span> Set environment</h3>
 <div class="outline-text-3" id="text-5-4">
-<p>
-I got something like:
-</p>
-
-<pre class="example">
-sh: symbol lookup error: sh: undefined symbol: rl_signal_event_hook
-</pre>
-
-<p>
-duckduckgoaround, I figured out the following solution:
-</p>
-
-<div class="org-src-container">
-
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~/ciao-<span class="number">4.7</span>/ots/lib/</span><br><span class="line">mv libreadline.so.<span class="number">6</span> libreadline.so.<span class="number">6</span>.bak</span><br><span class="line">mv libreadline.so libreadline.so.bak</span><br><span class="line">ln <span class="operator">-s</span> /usr/lib/libreadline.so.<span class="number">6.3</span> ~/ciao-<span class="number">4.7</span>/ots/lib/libreadline.so.<span class="number">6</span></span><br><span class="line">ln <span class="operator">-s</span> /usr/lib/libreadline.so.<span class="number">6</span> ~/ciao-<span class="number">4.7</span>/ots/lib/libreadline.so</span><br></pre></td></tr></table></figure>
-</div>
-</div>
-</div>
-
-<div id="outline-container-sec-5-5" class="outline-3">
-<h3 id="sec-5-5"><span class="section-number-3">5.5</span> Set environment</h3>
-<div class="outline-text-3" id="text-5-5">
 <p>
 Add following code to your <code>~/.bashrc</code> or <code>~/.zshrc</code>
 </p>
@@ -655,9 +633,9 @@ Add following code to your <code>~/.bashrc</code> or <code>~/.zshrc</code>
 </div>
 </div>
 
-<div id="outline-container-sec-5-6" class="outline-3">
-<h3 id="sec-5-6"><span class="section-number-3">5.6</span> Check</h3>
-<div class="outline-text-3" id="text-5-6">
+<div id="outline-container-sec-5-5" class="outline-3">
+<h3 id="sec-5-5"><span class="section-number-3">5.5</span> Check</h3>
+<div class="outline-text-3" id="text-5-5">
 <div class="org-src-container">
 
 <figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">ciao</span><br><span class="line">check_ciao_caldb</span><br></pre></td></tr></table></figure>
@@ -708,7 +686,7 @@ Typing <code>isis</code> at your unix prompt
 </div>
 </div>
 
-Last Updated 2016-11-26 Sat 00:05.<br>Rendered by <a href="https://github.com/CodeFalling/hexo-renderer-org" target="_blank" rel="external">hexo-renderer-org</a> with <a href="http://www.gnu.org/software/emacs/" target="_blank" rel="external">Emacs</a> 25.1.1 (<a href="http://orgmode.org" target="_blank" rel="external">Org</a> mode 8.2.10)
+Last Updated 2016-11-26 Sat 00:15.<br>Rendered by <a href="https://github.com/CodeFalling/hexo-renderer-org" target="_blank" rel="external">hexo-renderer-org</a> with <a href="http://www.gnu.org/software/emacs/" target="_blank" rel="external">Emacs</a> 25.1.1 (<a href="http://orgmode.org" target="_blank" rel="external">Org</a> mode 8.2.10)
 
       
     </div>
@@ -925,7 +903,7 @@ Last Updated 2016-11-26 Sat 00:05.<br>Rendered by <a href="https://github.com/Co
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#sec-1"><span class="nav-text">1 Introduction</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#sec-2"><span class="nav-text">2 HEASOFT</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-2-1"><span class="nav-text">2.1 Download</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-2-2"><span class="nav-text">2.2 Unpack to the installation directory</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-2-3"><span class="nav-text">2.3 Install</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-2-4"><span class="nav-text">2.4 Set environment</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-2-5"><span class="nav-text">2.5 Check</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#sec-3"><span class="nav-text">3 XMM SAS</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-3-1"><span class="nav-text">3.1 Download</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-3-2"><span class="nav-text">3.2 Unpack</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-3-3"><span class="nav-text">3.3 Run the installation file</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-3-4"><span class="nav-text">3.4 Set environment</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-3-5"><span class="nav-text">3.5 Check</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#sec-4"><span class="nav-text">4 CALDB</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-4-1"><span class="nav-text">4.1 Download</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-4-2"><span class="nav-text">4.2 Unpack</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-4-3"><span class="nav-text">4.3 Set environment</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#sec-5"><span class="nav-text">5 CIAO</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-5-1"><span class="nav-text">5.1 Before installation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-5-2"><span class="nav-text">5.2 Download ciao-install and run it</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-5-3"><span class="nav-text">5.3 Install dependences</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-5-4"><span class="nav-text">5.4 Fix a bug</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-5-5"><span class="nav-text">5.5 Set environment</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-5-6"><span class="nav-text">5.6 Check</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#sec-6"><span class="nav-text">6 ISIS</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-6-1"><span class="nav-text">6.1 Install dependencies</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-6-2"><span class="nav-text">6.2 Clone source by git</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-6-3"><span class="nav-text">6.3 Build and install</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-6-4"><span class="nav-text">6.4 Check installation</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#sec-1"><span class="nav-text">1 Introduction</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#sec-2"><span class="nav-text">2 HEASOFT</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-2-1"><span class="nav-text">2.1 Download</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-2-2"><span class="nav-text">2.2 Unpack to the installation directory</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-2-3"><span class="nav-text">2.3 Install</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-2-4"><span class="nav-text">2.4 Set environment</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-2-5"><span class="nav-text">2.5 Check</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#sec-3"><span class="nav-text">3 XMM SAS</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-3-1"><span class="nav-text">3.1 Download</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-3-2"><span class="nav-text">3.2 Unpack</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-3-3"><span class="nav-text">3.3 Run the installation file</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-3-4"><span class="nav-text">3.4 Set environment</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-3-5"><span class="nav-text">3.5 Check</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#sec-4"><span class="nav-text">4 CALDB</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-4-1"><span class="nav-text">4.1 Download</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-4-2"><span class="nav-text">4.2 Unpack</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-4-3"><span class="nav-text">4.3 Set environment</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#sec-5"><span class="nav-text">5 CIAO</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-5-1"><span class="nav-text">5.1 Before installation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-5-2"><span class="nav-text">5.2 Download ciao-install and run it</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-5-3"><span class="nav-text">5.3 Install dependences</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-5-4"><span class="nav-text">5.4 Set environment</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-5-5"><span class="nav-text">5.5 Check</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#sec-6"><span class="nav-text">6 ISIS</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-6-1"><span class="nav-text">6.1 Install dependencies</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-6-2"><span class="nav-text">6.2 Clone source by git</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-6-3"><span class="nav-text">6.3 Build and install</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-6-4"><span class="nav-text">6.4 Check installation</span></a></li></ol></li></ol></div>
             
           </div>
         </section>
