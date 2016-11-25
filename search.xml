@@ -216,7 +216,7 @@ Add following code to your <code>~/.bashrc</code> or <code>~/.zshrc</code>
 <p>
 where (PLATFORM) is a placeholder for the platform-specific string 
 denoting your machine&apos;s architecture, for example: <code>x86_64-unknown-linux-gnu-libc2. 22</code>
-in my Archlinux
+on my Archlinux
 </p>
 </div>
 </div>
@@ -451,7 +451,7 @@ Typing <code>isis</code> at your unix prompt
 </div>
 </div>
 
-Last Updated 2016-11-26 Sat 00:15.<br>Rendered by <a href="https://github.com/CodeFalling/hexo-renderer-org" target="_blank" rel="external">hexo-renderer-org</a> with <a href="http://www.gnu.org/software/emacs/" target="_blank" rel="external">Emacs</a> 25.1.1 (<a href="http://orgmode.org" target="_blank" rel="external">Org</a> mode 8.2.10)
+Last Updated 2016-11-26 Sat 00:25.<br>Rendered by <a href="https://github.com/CodeFalling/hexo-renderer-org" target="_blank" rel="external">hexo-renderer-org</a> with <a href="http://www.gnu.org/software/emacs/" target="_blank" rel="external">Emacs</a> 25.1.1 (<a href="http://orgmode.org" target="_blank" rel="external">Org</a> mode 8.2.10)
 ]]></content>
     </entry>
     
