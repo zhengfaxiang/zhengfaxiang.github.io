@@ -13,8 +13,9 @@
 <h2 id="sec-1"><span class="section-number-2">1</span> Introduction</h2>
 <div class="outline-text-2" id="text-1">
 <p>
-This is my personal Emacs configuration I play with almost everyday. I rewrote
-Purcell’s Emacs configuration with use-package which makes it faster and tidier.
+This is my personal Emacs configuration. At first it was based on Purcell’s
+and Chen Bin’s Emacs configuration. Then I kept stealing codes and ideas from
+others to make it state of the art.
 </p>
 
 
@@ -36,7 +37,7 @@ Purcell’s Emacs configuration with use-package which makes it faster and tidie
 </div>
 </div>
 
-Last Updated 2017-02-06 Mon 15:25.<br>Rendered by <a href="https://github.com/CodeFalling/hexo-renderer-org" target="_blank" rel="external">hexo-renderer-org</a> with <a href="http://www.gnu.org/software/emacs/" target="_blank" rel="external">Emacs</a> 25.1.1 (<a href="http://orgmode.org" target="_blank" rel="external">Org</a> mode 8.2.10)
+Last Updated 2017-02-06 Mon 15:28.<br>Rendered by <a href="https://github.com/CodeFalling/hexo-renderer-org" target="_blank" rel="external">hexo-renderer-org</a> with <a href="http://www.gnu.org/software/emacs/" target="_blank" rel="external">Emacs</a> 25.1.1 (<a href="http://orgmode.org" target="_blank" rel="external">Org</a> mode 8.2.10)
 ]]></content>
     </entry>
     

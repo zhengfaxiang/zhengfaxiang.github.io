@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.fxzheng.com/"/>
-  <updated>2017-02-06T07:25:43.184Z</updated>
+  <updated>2017-02-06T07:28:39.909Z</updated>
   <id>https://blog.fxzheng.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://blog.fxzheng.com/2016/07/25/emacs-configuration/"/>
     <id>https://blog.fxzheng.com/2016/07/25/emacs-configuration/</id>
     <published>2016-07-25T00:00:00.000Z</published>
-    <updated>2017-02-06T07:25:43.184Z</updated>
+    <updated>2017-02-06T07:28:39.909Z</updated>
     
     <content type="html"><![CDATA[
 
@@ -29,8 +29,9 @@
 <h2 id="sec-1"><span class="section-number-2">1</span> Introduction</h2>
 <div class="outline-text-2" id="text-1">
 <p>
-This is my personal Emacs configuration I play with almost everyday. I rewrote
-Purcell’s Emacs configuration with use-package which makes it faster and tidier.
+This is my personal Emacs configuration. At first it was based on Purcell’s
+and Chen Bin’s Emacs configuration. Then I kept stealing codes and ideas from
+others to make it state of the art.
 </p>
 
 
@@ -52,7 +53,7 @@ Purcell’s Emacs configuration with use-package which makes it faster and tidie
 </div>
 </div>
 
-Last Updated 2017-02-06 Mon 15:25.<br>Rendered by <a href="https://github.com/CodeFalling/hexo-renderer-org" target="_blank" rel="external">hexo-renderer-org</a> with <a href="http://www.gnu.org/software/emacs/" target="_blank" rel="external">Emacs</a> 25.1.1 (<a href="http://orgmode.org" target="_blank" rel="external">Org</a> mode 8.2.10)
+Last Updated 2017-02-06 Mon 15:28.<br>Rendered by <a href="https://github.com/CodeFalling/hexo-renderer-org" target="_blank" rel="external">hexo-renderer-org</a> with <a href="http://www.gnu.org/software/emacs/" target="_blank" rel="external">Emacs</a> 25.1.1 (<a href="http://orgmode.org" target="_blank" rel="external">Org</a> mode 8.2.10)
 ]]></content>
     
     <summary type="html">
@@ -61,8 +62,9 @@ Last Updated 2017-02-06 Mon 15:25.<br>Rendered by <a href="https://github.com/Co
 &lt;h2 id=&quot;sec-1&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Introduction&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
-This is my personal Emacs configuration I play with almost everyday. I rewrote
-Purcell’s Emacs configuration with use-package which makes it faster and tidier.
+This is my personal Emacs configuration. At first it was based on Purcell’s
+and Chen Bin’s Emacs configuration. Then I kept stealing codes and ideas from
+others to make it state of the art.
 &lt;/p&gt;
 
 
