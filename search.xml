@@ -14,10 +14,14 @@
 <div class="outline-text-2" id="text-1">
 <p>
 This is my personal Emacs configuration I play with almost everyday. I rewrote
-Purcell&#x2019;s Emacs configuration with use-package which makes it faster and tidier.
+Purcell’s Emacs configuration with use-package which makes it faster and tidier.
 </p>
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/VhpaZ"><a href="//imgur.com/VhpaZ">Emacs configuration ...</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+
+<div class="figure">
+<p><img src="https://i.imgur.com/pacm3ns.png" alt="Screenshot">
+</p>
+</div>
 
 <a id="more"></a>
 </div>
@@ -32,7 +36,7 @@ Purcell&#x2019;s Emacs configuration with use-package which makes it faster and 
 </div>
 </div>
 
-Last Updated 2016-07-26 Tue 16:03.<br>Rendered by <a href="https://github.com/CodeFalling/hexo-renderer-org" target="_blank" rel="external">hexo-renderer-org</a> with <a href="http://www.gnu.org/software/emacs/" target="_blank" rel="external">Emacs</a> 25.1.1 (<a href="http://orgmode.org" target="_blank" rel="external">Org</a> mode 8.2.10)
+Last Updated 2017-02-06 Mon 15:25.<br>Rendered by <a href="https://github.com/CodeFalling/hexo-renderer-org" target="_blank" rel="external">hexo-renderer-org</a> with <a href="http://www.gnu.org/software/emacs/" target="_blank" rel="external">Emacs</a> 25.1.1 (<a href="http://orgmode.org" target="_blank" rel="external">Org</a> mode 8.2.10)
 ]]></content>
     </entry>
     
