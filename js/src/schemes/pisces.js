@@ -1,5 +1,1 @@
-$(document).ready(function () {
-  var sidebarTop = $('.header-inner').height() + 10;
-
-  $('#sidebar').css({ 'margin-top': sidebarTop }).show();
-});
+$(document).ready(function(){var n=$(".header-inner"),e=$("#sidebar"),i=function(){return n.height()+10},t=function(n){return e.css({"margin-top":n})},r=window.matchMedia("(min-width: 991px)");t(i()).show(),r.addListener(function(n){n.matches&&t(i())})});
