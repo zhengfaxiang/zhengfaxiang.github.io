@@ -1,35 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
-  
-    
-    <entry>
-      <title><![CDATA[Emacs Configuration]]></title>
-      <url>%2F2016%2F07%2F25%2Femacs-configuration%2F</url>
-      <content type="text"><![CDATA[1 Introduction This is my personal Emacs configuration. At first it was based on Purcell’s and Chen Bin’s Emacs configuration. Then I kept stealing codes and ideas from others to make it state of the art. 2 URL https://github.com/zhengfaxiang/emacs.d Last Updated 2017-02-06 Mon 20:47.Rendered by hexo-renderer-org with Emacs 25.1.1 (Org mode 8.2.10)]]></content>
-    </entry>
-
-    
-    <entry>
-      <title><![CDATA[Notes of IDL Programming]]></title>
-      <url>%2F2016%2F07%2F18%2Fnotes-of-idl-programming%2F</url>
-      <content type="text"><![CDATA[1 Introduction Notes of IDL programming language based on David W. Fanning&apos;s Coyote&apos;s Guide to Traditional IDL Graphics and Liam Edward Gumley&apos;s Practical IDL Programming. 2 Link https://github.com/zhengfaxiang/Notes-of-IDL-Programming Last Updated 2016-07-18 Mon 21:25.Rendered by hexo-renderer-org with Emacs 25.1.1 (Org mode 8.2.10)]]></content>
-    </entry>
-
-    
-    <entry>
-      <title><![CDATA[Orgmode+Hexo]]></title>
-      <url>%2F2016%2F05%2F02%2Ftest-org%2F</url>
-      <content type="text"><![CDATA[1 How to Refer to here 2 Test 2.1 Code block import clickclass Config(object): def __init__(self): self.verbose = False 2.2 LaTeX $$\sum{}_{i=1}^{n}\frac{1}{n^2}$$ 2.3 Table Table 1: Table test Name Number apple 2 orange 5 banana 3 Last Updated 2016-05-02 Mon 20:49.Rendered by hexo-renderer-org with Emacs 25.1.1 (Org mode 8.2.10)]]></content>
-    </entry>
-
-    
-    <entry>
-      <title><![CDATA[Install Softwares for High-energy Astronomy]]></title>
-      <url>%2F2015%2F10%2F18%2Fhigh-energy-soft-install%2F</url>
-      <content type="text"><![CDATA[1 Introduction This is a brief instruction of installing softwares for high-energy astronomy on my Archlinux 2 HEASOFT 2.1 Download Visit here to download the source code 2.2 Unpack to the installation directory cd /usr/local/sudo tar zxvf /path/to/the/downloaded/file/heasoft-6.17src.tar.gz 2.3 Install cd heasoft-6.17/BUILD_DIRsudo ./configuresudo makesudo make install this may take some time, so be patient : -) or you can have a coffee ~ 2.4 Set environment Add following code to your ~/.bashrc or ~/.zshrc export HEADAS=/usr/local/heasoft-6.17/(PLATFORM)alias heainit=&quot;. $HEADAS/headas-init.sh&quot; where (PLATFORM) is a placeholder for the platform-specific string denoting your machine&apos;s architecture, for example: x86_64-unknown-linux-gnu-libc2. 22 on my Archlinux 2.5 Check Run heainit in your unix prompt 3 XMM SAS 3.1 Download Download from here 3.2 Unpack sudo mkdir /usr/local/SAScd /usr/local/SASsudo tar zxf /path/to/the/downloaded/file/sas_14.0.0-&lt;OS&gt;.tgz 3.3 Run the installation file sudo ./install.sh 3.4 Set environment Add following code to your ~/.bashrc or ~/.zshrc alias sasinit=&quot;. /usr/local/SAS/xmmsas_20141104_1833/setsas.sh&quot; 3.5 Check Run sasinit in your unix prompt 4 CALDB 4.1 Download Chandra Visit here to download Chandra caldb Others Visit here to download caldb of missions needed such as Suzaku 4.2 Unpack mkdir ~/caldbcd ~/caldbtar zxvf /path/to/the/downloaded/file/caldb_4.6.9_main.tar.gztar zxvf /path/to/the/downloaded/file/goodfiles_suzaku_xis_bcf_20151005.tar.gztar zxvf /path/to/the/downloaded/file/goodfiles_suzaku_xis_cpf_20151005.tar.gztar zxvf /path/to/the/downloaded/file/goodfiles_suzaku_xis_index_20151005.tar.gz 4.3 Set environment Add following code to your ~/.bashrc or ~/.zshrc export CALDB=$HOME/caldbexport CALDBCONFIG=$CALDB/software/tools/caldb.configexport CALDBALIAS=$CALDB/software/tools/alias_config.fits 5 CIAO 5.1 Before installation link installed CALDB to your CIAO installation directory ln -s ~/caldb ~/ciao-4.7/CALDB 5.2 Download ciao-install and run it Download from here ./ciao-install just install ciao to your home directory : -) 5.3 Install dependences yaourt -S libselinux and any other if required 5.4 Set environment Add following code to your ~/.bashrc or ~/.zshrc alias ciao=&quot;source ~/ciao-4.7/bin/ciao.bash&quot; 5.5 Check ciaocheck_ciao_caldb 6 ISIS 6.1 Install dependencies Make sure that slang has been installed 6.2 Clone source by git git clone http://space.mit.edu/cxc/isis/isis.git ~/Downloads/isis-src 6.3 Build and install cd ~/Downloads/isis-src./configure --with-headas=$HEADASmakemake checksudo make install 6.4 Check installation Typing isis at your unix prompt Last Updated 2016-11-26 Sat 00:25.Rendered by hexo-renderer-org with Emacs 25.1.1 (Org mode 8.2.10)]]></content>
-    </entry>
-
-    
-  
-  
+  <entry>
+    <title><![CDATA[Emacs Configuration]]></title>
+    <url>%2F2016%2F07%2F25%2Femacs-configuration%2F</url>
+    <content type="text"><![CDATA[1 Introduction This is my personal Emacs configuration. At first it was based on Purcell’s and Chen Bin’s Emacs configuration. Then I kept stealing codes and ideas from others to make it state of the art. 2 URL https://github.com/zhengfaxiang/emacs.d Last Updated 2017-02-06 Mon 20:47.Rendered by hexo-renderer-org with Emacs 25.1.1 (Org mode 8.2.10)]]></content>
+      <categories>
+        <category>emacs</category>
+      </categories>
+      <tags>
+        <tag>programming</tag>
+        <tag>emacs</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Notes of IDL Programming]]></title>
+    <url>%2F2016%2F07%2F18%2Fnotes-of-idl-programming%2F</url>
+    <content type="text"><![CDATA[1 Introduction Notes of IDL programming language based on David W. Fanning&apos;s Coyote&apos;s Guide to Traditional IDL Graphics and Liam Edward Gumley&apos;s Practical IDL Programming. 2 Link https://github.com/zhengfaxiang/Notes-of-IDL-Programming Last Updated 2016-07-18 Mon 21:25.Rendered by hexo-renderer-org with Emacs 25.1.1 (Org mode 8.2.10)]]></content>
+      <categories>
+        <category>programming</category>
+      </categories>
+      <tags>
+        <tag>programming</tag>
+        <tag>idl</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Orgmode+Hexo]]></title>
+    <url>%2F2016%2F05%2F02%2Ftest-org%2F</url>
+    <content type="text"><![CDATA[1 How to Refer to here 2 Test 2.1 Code block import clickclass Config(object): def __init__(self): self.verbose = False 2.2 LaTeX $$\sum{}_{i=1}^{n}\frac{1}{n^2}$$ 2.3 Table Table 1: Table test Name Number apple 2 orange 5 banana 3 Last Updated 2016-05-02 Mon 20:49.Rendered by hexo-renderer-org with Emacs 25.1.1 (Org mode 8.2.10)]]></content>
+      <categories>
+        <category>orgmode</category>
+      </categories>
+      <tags>
+        <tag>emacs</tag>
+        <tag>orgmode</tag>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Install Softwares for High-energy Astronomy]]></title>
+    <url>%2F2015%2F10%2F18%2Fhigh-energy-soft-install%2F</url>
+    <content type="text"><![CDATA[1 Introduction This is a brief instruction of installing softwares for high-energy astronomy on my Archlinux 2 HEASOFT 2.1 Download Visit here to download the source code 2.2 Unpack to the installation directory cd /usr/local/sudo tar zxvf /path/to/the/downloaded/file/heasoft-6.17src.tar.gz 2.3 Install cd heasoft-6.17/BUILD_DIRsudo ./configuresudo makesudo make install this may take some time, so be patient : -) or you can have a coffee ~ 2.4 Set environment Add following code to your ~/.bashrc or ~/.zshrc export HEADAS=/usr/local/heasoft-6.17/(PLATFORM)alias heainit=&quot;. $HEADAS/headas-init.sh&quot; where (PLATFORM) is a placeholder for the platform-specific string denoting your machine&apos;s architecture, for example: x86_64-unknown-linux-gnu-libc2. 22 on my Archlinux 2.5 Check Run heainit in your unix prompt 3 XMM SAS 3.1 Download Download from here 3.2 Unpack sudo mkdir /usr/local/SAScd /usr/local/SASsudo tar zxf /path/to/the/downloaded/file/sas_14.0.0-&lt;OS&gt;.tgz 3.3 Run the installation file sudo ./install.sh 3.4 Set environment Add following code to your ~/.bashrc or ~/.zshrc alias sasinit=&quot;. /usr/local/SAS/xmmsas_20141104_1833/setsas.sh&quot; 3.5 Check Run sasinit in your unix prompt 4 CALDB 4.1 Download Chandra Visit here to download Chandra caldb Others Visit here to download caldb of missions needed such as Suzaku 4.2 Unpack mkdir ~/caldbcd ~/caldbtar zxvf /path/to/the/downloaded/file/caldb_4.6.9_main.tar.gztar zxvf /path/to/the/downloaded/file/goodfiles_suzaku_xis_bcf_20151005.tar.gztar zxvf /path/to/the/downloaded/file/goodfiles_suzaku_xis_cpf_20151005.tar.gztar zxvf /path/to/the/downloaded/file/goodfiles_suzaku_xis_index_20151005.tar.gz 4.3 Set environment Add following code to your ~/.bashrc or ~/.zshrc export CALDB=$HOME/caldbexport CALDBCONFIG=$CALDB/software/tools/caldb.configexport CALDBALIAS=$CALDB/software/tools/alias_config.fits 5 CIAO 5.1 Before installation link installed CALDB to your CIAO installation directory ln -s ~/caldb ~/ciao-4.7/CALDB 5.2 Download ciao-install and run it Download from here ./ciao-install just install ciao to your home directory : -) 5.3 Install dependences yaourt -S libselinux and any other if required 5.4 Set environment Add following code to your ~/.bashrc or ~/.zshrc alias ciao=&quot;source ~/ciao-4.7/bin/ciao.bash&quot; 5.5 Check ciaocheck_ciao_caldb 6 ISIS 6.1 Install dependencies Make sure that slang has been installed 6.2 Clone source by git git clone http://space.mit.edu/cxc/isis/isis.git ~/Downloads/isis-src 6.3 Build and install cd ~/Downloads/isis-src./configure --with-headas=$HEADASmakemake checksudo make install 6.4 Check installation Typing isis at your unix prompt Last Updated 2016-11-26 Sat 00:25.Rendered by hexo-renderer-org with Emacs 25.1.1 (Org mode 8.2.10)]]></content>
+      <categories>
+        <category>astronomy</category>
+      </categories>
+      <tags>
+        <tag>astronomy</tag>
+        <tag>linux</tag>
+        <tag>software</tag>
+      </tags>
+  </entry>
 </search>
