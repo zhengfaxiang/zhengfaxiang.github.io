@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.fxzheng.com/2016/05/02/test-org/</loc>
+    
+    <lastmod>2018-02-14T14:49:39.575Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.fxzheng.com/2016/07/18/notes-of-idl-programming/</loc>
+    
+    <lastmod>2018-02-14T14:49:06.370Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.fxzheng.com/2015/10/18/high-energy-soft-install/</loc>
+    
+    <lastmod>2018-02-14T14:48:35.452Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.fxzheng.com/tags/index.html</loc>
     
     <lastmod>2018-02-14T14:03:32.503Z</lastmod>
@@ -19,27 +40,6 @@
     <loc>https://blog.fxzheng.com/archives/index.html</loc>
     
     <lastmod>2018-02-14T14:03:14.716Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.fxzheng.com/2015/10/18/high-energy-soft-install/</loc>
-    
-    <lastmod>2018-02-14T13:00:30.762Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.fxzheng.com/2016/07/18/notes-of-idl-programming/</loc>
-    
-    <lastmod>2016-07-18T05:25:14.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.fxzheng.com/2016/05/02/test-org/</loc>
-    
-    <lastmod>2016-05-02T04:49:52.000Z</lastmod>
     
   </url>
   
